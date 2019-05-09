@@ -1,0 +1,12 @@
+-I/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/.
+-F/Users/joy/Qt5.9.1/5.9.1/clang_64/lib
+-I/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtWidgets.framework/Headers
+-F/Users/joy/Qt5.9.1/5.9.1/clang_64/lib
+-I/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtGui.framework/Headers
+-F/Users/joy/Qt5.9.1/5.9.1/clang_64/lib
+-I/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtCore.framework/Headers
+-I/Users/joy/Qt5.9.1/5.9.1/clang_64/./mkspecs/macx-clang
+-I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers
+-o
+/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_imagearea.cpp
+/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/imagearea.h

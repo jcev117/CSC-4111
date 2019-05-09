@@ -1,0 +1,15 @@
+-IC:/Users/er0471/Downloads/QtHelloWorldQt5/bin
+-IC:/Users/er0471/Downloads/QtHelloWorldQt5
+-IC:/Users/er0471/Downloads/QtHelloWorldQt5/(
+-IC:/Qt/5.11.1/msvc2017_64/include
+-IC:/Qt/5.11.1/msvc2017_64/include/QtWidgets
+-IC:/Qt/5.11.1/msvc2017_64/include/QtGui
+-IC:/Qt/5.11.1/msvc2017_64/include/QtCore
+-IC:/Qt/5.11.1/msvc2017_64/./mkspecs/win32-msvc
+-IC:/Qt/5.11.1/msvc2017_64/include/QtANGLE
+-IC:/Users/er0471/Downloads/QtHelloWorldQt5/)
+-DWIN32
+--compiler-flavor=msvc
+-o
+C:/Users/er0471/Downloads/QtHelloWorldQt5/bin/moc_qtprogramwin.cpp
+C:/Users/er0471/Downloads/QtHelloWorldQt5/qtprogramwin.h

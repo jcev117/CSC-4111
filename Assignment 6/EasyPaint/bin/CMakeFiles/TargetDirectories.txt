@@ -1,0 +1,3 @@
+/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/CMakeFiles/easypaint.dir
+/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/CMakeFiles/ALL_BUILD.dir
+/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/CMakeFiles/ZERO_CHECK.dir

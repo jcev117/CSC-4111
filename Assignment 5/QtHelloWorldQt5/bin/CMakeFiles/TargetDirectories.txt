@@ -1,0 +1,3 @@
+C:/Users/er0471/Downloads/QtHelloWorldQt5/bin/CMakeFiles/QtTest.dir
+C:/Users/er0471/Downloads/QtHelloWorldQt5/bin/CMakeFiles/ALL_BUILD.dir
+C:/Users/er0471/Downloads/QtHelloWorldQt5/bin/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,1280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4C6F6FF0249549C58546A9BA /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4690349BDA954CEAA8D16605 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1A6570F5484D4B21850318C9 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		93A11C243E9147D9B9EDE220 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C77EF3322829476B85955FEC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				1F54CB28227849FAA4085B6C /* CMake Rules */,
+			);
+			dependencies = (
+				CC4B638023F8405CA1DC8F28 /* PBXTargetDependency */,
+				BF778B30175F4A18A9D7F63E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0215811453264F37A503BB75 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/gaussianblureffect.h */ = {isa = PBXBuildFile; fileRef = F7BA863855AE4ADA825AC6F9 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/gaussianblureffect.h */; };
+		06E74375AA5141CFA9A594B8 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/magnifierinstrument.h */ = {isa = PBXBuildFile; fileRef = 4349E2E37C3541B397542005 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/magnifierinstrument.h */; };
+		0E53BAB674C6462894C0A34E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/pencilinstrument.h */ = {isa = PBXBuildFile; fileRef = 148339B43A7A419DA85F7928 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/pencilinstrument.h */; };
+		0F1517FEB974479A8F7C9FC4 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_gaussianblureffect.cpp.rule */ = {isa = PBXBuildFile; fileRef = 5FB22EBB8A8444FC8D227521 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_gaussianblureffect.cpp.rule */; };
+		10D1E786AE05497391746167 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_settingsdialog.cpp.rule */ = {isa = PBXBuildFile; fileRef = 867DE02A396E480A869E6D9B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_settingsdialog.cpp.rule */; };
+		11532CC18F4549E49E875835 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_resizedialog.cpp.rule */ = {isa = PBXBuildFile; fileRef = 5244CEC0D54D4A7BAF96558C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_resizedialog.cpp.rule */; };
+		11C70F4552BA4E3CB8B40790 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/colorchooser.cpp */ = {isa = PBXBuildFile; fileRef = 2948099D45B946B1B865460D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/colorchooser.cpp */; };
+		14632B60B1AC4F468F86F15C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_curvelineinstrument.cpp */ = {isa = PBXBuildFile; fileRef = 6315563C86BD4F6BABB4A80D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_curvelineinstrument.cpp */; };
+		1555BABC6E0348EFADF669D1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/abstracteffect.h */ = {isa = PBXBuildFile; fileRef = D6E3BBB1CED6480B8C399E11 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/abstracteffect.h */; };
+		15D304454F374D32A7BFEF18 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/sharpenfiltersettings.h */ = {isa = PBXBuildFile; fileRef = 9EAD0CD5F78648C19822F528 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/sharpenfiltersettings.h */; };
+		16587B2115B54AA49E04DBA2 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/additionaltools.cpp */ = {isa = PBXBuildFile; fileRef = A8EE7E311E3D4B8DB4C00BCA /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/additionaltools.cpp */; };
+		16F875EF9BBF4519A072276F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_effectsettingsdialog.cpp.rule */ = {isa = PBXBuildFile; fileRef = 45C0BE05D16248C880BB7C3F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_effectsettingsdialog.cpp.rule */; };
+		1C8252CFFD75470E853000E0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/abstractinstrument.cpp */ = {isa = PBXBuildFile; fileRef = DEF4047974B24B00B0F2E1ED /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/abstractinstrument.cpp */; };
+		1CBF288AD35E4708BF33A388 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_additionaltools.cpp */ = {isa = PBXBuildFile; fileRef = 5160F6D014A045B789BC0146 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_additionaltools.cpp */; };
+		1D45C43641554B3A8EF33B4C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/customfiltersettings.cpp */ = {isa = PBXBuildFile; fileRef = 67DE42CF7DE94B3D9E6E2020 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/customfiltersettings.cpp */; };
+		22CCE165CF9B400980B79650 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_sharpenfiltersettings.cpp */ = {isa = PBXBuildFile; fileRef = C80D274E7FE84F808C2741CA /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_sharpenfiltersettings.cpp */; };
+		243C47DB0CA9400AB0B4C261 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/pencilinstrument.cpp */ = {isa = PBXBuildFile; fileRef = EE47BA626B4449FEAEBB3DB3 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/pencilinstrument.cpp */; };
+		2868FC9C528D45B689D48555 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/grayeffect.cpp */ = {isa = PBXBuildFile; fileRef = 30D83BABB2FA4F2CB1849A85 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/grayeffect.cpp */; };
+		2A4FAB4FB5234014957FF8D1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_lineinstrument.cpp.rule */ = {isa = PBXBuildFile; fileRef = 0C55B42AB9FE474BA50E51B7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_lineinstrument.cpp.rule */; };
+		2DD794889BE948FAAB8C2E84 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_sharpeneffect.cpp */ = {isa = PBXBuildFile; fileRef = 07630F4C132A4C449C5CB573 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_sharpeneffect.cpp */; };
+		31551A7693014319943B413E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/abstractinstrument.h */ = {isa = PBXBuildFile; fileRef = 04E8E8A4496C42258E6F78D7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/abstractinstrument.h */; };
+		3550EF4452764E6DB36D6AB6 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_datasingleton.cpp.rule */ = {isa = PBXBuildFile; fileRef = 564FDE3947724A30822F9CA5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_datasingleton.cpp.rule */; };
+		356CC550956D459AA03405C5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_palettebutton.cpp.rule */ = {isa = PBXBuildFile; fileRef = A688DBFCB1F8444489DEEAD7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_palettebutton.cpp.rule */; };
+		3A6AC11DD5B8494B9FC813E1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_resizedialog.cpp */ = {isa = PBXBuildFile; fileRef = B9DC41744B6E497D82ADF1D7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_resizedialog.cpp */; };
+		3B180D9FF6C24CA19A0CE34F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/gammaeffect.h */ = {isa = PBXBuildFile; fileRef = E19AE8F8FF614258960688C5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/gammaeffect.h */; };
+		3D53E719FB18480AAD5BE0C5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_selectioninstrument.cpp.rule */ = {isa = PBXBuildFile; fileRef = D3CAD012FC314079953B593F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_selectioninstrument.cpp.rule */; };
+		3DB19E4E478B4EA4A76D8CD0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_lineinstrument.cpp */ = {isa = PBXBuildFile; fileRef = 5EFFAF16BACF4BD8B64169D2 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_lineinstrument.cpp */; };
+		40F7DBF736E24B66BA1CBBDC /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_sprayinstrument.cpp */ = {isa = PBXBuildFile; fileRef = EE6658F8678644BF8AA9B900 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_sprayinstrument.cpp */; };
+		41239EAF72514DE19F1A9AA2 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_textinstrument.cpp.rule */ = {isa = PBXBuildFile; fileRef = F73E761647294551AC4BC0A7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_textinstrument.cpp.rule */; };
+		42FE6648C5CC4EB2BE9B4029 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/lineinstrument.cpp */ = {isa = PBXBuildFile; fileRef = 272CCDD3F97946158A13E69E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/lineinstrument.cpp */; };
+		43B71A3A6B7B495BB3492A9D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/undocommand.cpp */ = {isa = PBXBuildFile; fileRef = 37FB3D8770E941B5B6EE8271 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/undocommand.cpp */; };
+		458FFC77DCC04FF4BEF0D5DB /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/gammaeffect.cpp */ = {isa = PBXBuildFile; fileRef = 37CDADBDDC974BBFA9392C90 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/gammaeffect.cpp */; };
+		459FEC5BC00B43FC8CEDC38A /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/customfiltersettings.h */ = {isa = PBXBuildFile; fileRef = D3C31286F9A7426693BE5975 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/customfiltersettings.h */; };
+		497C4EE2FA7B4536B92716F5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_mainwindow.cpp */ = {isa = PBXBuildFile; fileRef = 17CCC8322C3A45F4BA142A83 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_mainwindow.cpp */; };
+		4C44F8780B6C41C39017969B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_fillinstrument.cpp.rule */ = {isa = PBXBuildFile; fileRef = 9C03E4E621A3431CBF5BACDD /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_fillinstrument.cpp.rule */; };
+		4D2B7874B3BF48E78E3E998F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_ellipseinstrument.cpp */ = {isa = PBXBuildFile; fileRef = 6F318CFEDE6E4756897E3774 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_ellipseinstrument.cpp */; };
+		4DCE717C34A649609CB8AA69 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_magnifierinstrument.cpp.rule */ = {isa = PBXBuildFile; fileRef = B7395620FB474E0C858E7BC5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_magnifierinstrument.cpp.rule */; };
+		4E7503CE6CE14B108B26D55D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_customeffect.cpp */ = {isa = PBXBuildFile; fileRef = 3070C73F74F048259E79758E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_customeffect.cpp */; };
+		4F81ABF3A6304CF0A86F5407 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/effectsettingsdialog.h */ = {isa = PBXBuildFile; fileRef = CF7B18E30C5C4F07BC3BF8F0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/effectsettingsdialog.h */; };
+		4FDB61526CC34B2184E76875 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/customeffect.h */ = {isa = PBXBuildFile; fileRef = 24C0A096DB4D48AE92A0F4A3 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/customeffect.h */; };
+		53D9C320C85E46C495936BC5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/textdialog.cpp */ = {isa = PBXBuildFile; fileRef = F41D944E79DF49B48FCF94EB /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/textdialog.cpp */; };
+		5433CE68A22E472A85FB6BDA /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/effectsettingsdialog.cpp */ = {isa = PBXBuildFile; fileRef = 75F3C7936C474A9CBF730082 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/effectsettingsdialog.cpp */; };
+		544737109AD24FB3B856547D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/datasingleton.cpp */ = {isa = PBXBuildFile; fileRef = 7FA1670720BB4F209854B593 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/datasingleton.cpp */; };
+		55ADFB52F6D04A7287326B0C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_imagepreview.cpp.rule */ = {isa = PBXBuildFile; fileRef = 35AF7514DBE9402AAD7D76F9 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_imagepreview.cpp.rule */; };
+		58467AD79C694F63A4B0ADA0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/textinstrument.cpp */ = {isa = PBXBuildFile; fileRef = 344AA2A33E414DF0B9DDF971 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/textinstrument.cpp */; };
+		58DD42D6367D4895992B0679 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_palettebar.cpp.rule */ = {isa = PBXBuildFile; fileRef = A3B48268744B43AE8B487241 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_palettebar.cpp.rule */; };
+		59385198BB0C45E28C0E08E8 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/gaussianblurfiltersettings.h */ = {isa = PBXBuildFile; fileRef = 9C5A18C459E444F18415718C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/gaussianblurfiltersettings.h */; };
+		59B6F456C1664290AAED901D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_gaussianblurfiltersettings.cpp */ = {isa = PBXBuildFile; fileRef = 20076BA9639E4152B664A0E2 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_gaussianblurfiltersettings.cpp */; };
+		5A85FD37EBEF4EABA1EAEECB /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_negativeeffect.cpp */ = {isa = PBXBuildFile; fileRef = 5CDD99FC2684424990459132 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_negativeeffect.cpp */; };
+		5D306A5A481444FC9C4C82CA /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/effectwithsettings.cpp */ = {isa = PBXBuildFile; fileRef = 52707278263F4573B8172E8E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/effectwithsettings.cpp */; };
+		5D307D3F99F442E3BCD44063 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/mainwindow.h */ = {isa = PBXBuildFile; fileRef = 93FBA81CEAC24EBB80761339 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/mainwindow.h */; };
+		5F19AE775A164DBBBA580C1A /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_colorchooser.cpp.rule */ = {isa = PBXBuildFile; fileRef = 116064FC77DD420BBCDD10F0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_colorchooser.cpp.rule */; };
+		605FCD5D9539425CBDF10E76 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_colorpickerinstrument.cpp.rule */ = {isa = PBXBuildFile; fileRef = 03B500D690AA4D2CA49E753F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_colorpickerinstrument.cpp.rule */; };
+		617F4B01C304403D89C16A0D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_palettebutton.cpp */ = {isa = PBXBuildFile; fileRef = F8464F01FE784FE9BD287814 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_palettebutton.cpp */; };
+		627754A136BC47E2875B357B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/resizedialog.h */ = {isa = PBXBuildFile; fileRef = E5A192F378E9468CA975FBDC /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/resizedialog.h */; };
+		638CEEEBFE644124AD077468 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_textdialog.cpp */ = {isa = PBXBuildFile; fileRef = F84FDCB3AD604C41895AD0D6 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_textdialog.cpp */; };
+		63CA78BAA70C47B0A0D353B8 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/gaussianblurfiltersettings.cpp */ = {isa = PBXBuildFile; fileRef = E2CFB521FA7146E3BD6A525E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/gaussianblurfiltersettings.cpp */; };
+		6478F8E3CA004C028B760116 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/selectioninstrument.cpp */ = {isa = PBXBuildFile; fileRef = 20B063EDF9B5405C9822E3E8 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/selectioninstrument.cpp */; };
+		650D505D8E5945AEB0E4C651 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/textinstrument.h */ = {isa = PBXBuildFile; fileRef = D981A24167344B9D935DE5DC /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/textinstrument.h */; };
+		66F8050F04DF45738C271D05 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_effectsettingsdialog.cpp */ = {isa = PBXBuildFile; fileRef = 86E5E66C723942B1BC5EE56F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_effectsettingsdialog.cpp */; };
+		6790081308DB48DD9758ACBF /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_eraserinstrument.cpp */ = {isa = PBXBuildFile; fileRef = 33FDB4EC9E86474F9BB366C2 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_eraserinstrument.cpp */; };
+		67C657EA8E2E496E96C3C3A5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_effectwithsettings.cpp.rule */ = {isa = PBXBuildFile; fileRef = 6427168C0BFB4B7488C91F68 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_effectwithsettings.cpp.rule */; };
+		68E3C6BA18B54920BBBBFAA7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_imagearea.cpp.rule */ = {isa = PBXBuildFile; fileRef = 2355A2BD5C444A3B9CAE1F72 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_imagearea.cpp.rule */; };
+		68F0869A3FFE416198CA0417 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_abstractinstrument.cpp.rule */ = {isa = PBXBuildFile; fileRef = 65909DE046F7479BA08E9363 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_abstractinstrument.cpp.rule */; };
+		6BE897AC640D466C9978BDF1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/palettebar.h */ = {isa = PBXBuildFile; fileRef = C116B37F852241518D18AF97 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/palettebar.h */; };
+		6CC8DA4B4A124C5FA5A78754 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/curvelineinstrument.h */ = {isa = PBXBuildFile; fileRef = 2E3B93F90BF04A84A00DA1A9 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/curvelineinstrument.h */; };
+		6F0F469A0AEA4158941E5DAE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/sharpenfiltersettings.cpp */ = {isa = PBXBuildFile; fileRef = B2282D91F90341E1B3D74F6C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/sharpenfiltersettings.cpp */; };
+		6FE2471DA1464D4F9594F5CE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_toolbar.cpp.rule */ = {isa = PBXBuildFile; fileRef = 51F5C6B50DFA405492FF544F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_toolbar.cpp.rule */; };
+		71EBCAA4F3EE494294E2AACE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_abstracteffect.cpp */ = {isa = PBXBuildFile; fileRef = F4FE11DB59E64B21B581DB9E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_abstracteffect.cpp */; };
+		749111D32B154335BD8F3E25 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_grayeffect.cpp.rule */ = {isa = PBXBuildFile; fileRef = D474B65AE8F846ECAF447194 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_grayeffect.cpp.rule */; };
+		75346A4A6D674743B755347E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/negativeeffect.cpp */ = {isa = PBXBuildFile; fileRef = FC7E2A849E9E450FA4E0A3DD /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/negativeeffect.cpp */; };
+		75847A8B8C37488B82B49DDE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/sharpeneffect.h */ = {isa = PBXBuildFile; fileRef = 8F03EDE2658C4CE38FA3D3C1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/sharpeneffect.h */; };
+		76D0B5AC6A9747788FC14478 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/palettebutton.h */ = {isa = PBXBuildFile; fileRef = B2DCCDBA58604CC0BF8CF6C7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/palettebutton.h */; };
+		78C2C35922994F95967F259A /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_sharpeneffect.cpp.rule */ = {isa = PBXBuildFile; fileRef = 08B0A4B2683D4B41807D693B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_sharpeneffect.cpp.rule */; };
+		7BE778AA55D04F3199416D6A /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_textdialog.cpp.rule */ = {isa = PBXBuildFile; fileRef = 1654A1EFA483496CAFA034BE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_textdialog.cpp.rule */; };
+		7C0E84A1E4ED4A13A37CE149 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_abstractselection.cpp.rule */ = {isa = PBXBuildFile; fileRef = 7320913A5A514153AF52FC01 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_abstractselection.cpp.rule */; };
+		7CFB4A6BCE384319920557AF /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_sharpenfiltersettings.cpp.rule */ = {isa = PBXBuildFile; fileRef = E08C820D97DC45969B7B068D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_sharpenfiltersettings.cpp.rule */; };
+		8322D8FED8D24B178AAAB2C5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/resources.qrc */ = {isa = PBXBuildFile; fileRef = 6A8851906515425AAC3FBE84 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/resources.qrc */; };
+		8587096A991744458D7BA4D6 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_pencilinstrument.cpp */ = {isa = PBXBuildFile; fileRef = 7FAA8AC636934D65800F933D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_pencilinstrument.cpp */; };
+		88FF86AA0CDE4F33BC323D82 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_pencilinstrument.cpp.rule */ = {isa = PBXBuildFile; fileRef = 49B4D07E8DCF4515A00276B0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_pencilinstrument.cpp.rule */; };
+		893CC54C3CEE4AFAA7074B93 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/lineinstrument.h */ = {isa = PBXBuildFile; fileRef = AE992FCEDF32418680651390 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/lineinstrument.h */; };
+		89F0EFBFCCA947B787D244C1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/selectioninstrument.h */ = {isa = PBXBuildFile; fileRef = 642E7DDF693944399E9B8097 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/selectioninstrument.h */; };
+		8D44D2AC07CF441B93B58077 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_ellipseinstrument.cpp.rule */ = {isa = PBXBuildFile; fileRef = EC33EB89998A4D0E8B74DB46 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_ellipseinstrument.cpp.rule */; };
+		8D9A065EE0B54EA4838E0608 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/imagepreview.cpp */ = {isa = PBXBuildFile; fileRef = DD662B4D50DF4BFA9A783223 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/imagepreview.cpp */; };
+		8DF82758875C44BFB99140FF /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_curvelineinstrument.cpp.rule */ = {isa = PBXBuildFile; fileRef = F5E55FEA513B421DA96D0965 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_curvelineinstrument.cpp.rule */; };
+		8E721B1BB8BA4916BABBC3E1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/rectangleinstrument.h */ = {isa = PBXBuildFile; fileRef = B4C8C0D19A2F4B10980E4C69 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/rectangleinstrument.h */; };
+		93B24F7CC584419A89A0F125 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_abstracteffectsettings.cpp */ = {isa = PBXBuildFile; fileRef = C2CD482D9BAD4931852CAF11 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_abstracteffectsettings.cpp */; };
+		93D53C111459452BB3CB02A4 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/ellipseinstrument.cpp */ = {isa = PBXBuildFile; fileRef = 3A1C4E479F114DDFA6B49E09 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/ellipseinstrument.cpp */; };
+		9533BCA11B9E4FDDAECBF53D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_abstractselection.cpp */ = {isa = PBXBuildFile; fileRef = 96052EDF59B94E9BA6A0F5C8 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_abstractselection.cpp */; };
+		97378D44F9DE44A686EF8F40 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/abstractselection.cpp */ = {isa = PBXBuildFile; fileRef = 167FECBF7396481CA65D1B3E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/abstractselection.cpp */; };
+		97645F8376014D87B9F5BF29 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_easypaintenums.cpp */ = {isa = PBXBuildFile; fileRef = 55E7DDCE95CF4AE9B7A2987E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_easypaintenums.cpp */; };
+		976BBE5B4D4845FD8DD6A811 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/palettebutton.cpp */ = {isa = PBXBuildFile; fileRef = 94B327FFE665489D961ACC97 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/palettebutton.cpp */; };
+		9772AB0432A64EBC8ACEFBD5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/effectwithsettings.h */ = {isa = PBXBuildFile; fileRef = 2DEC0EC2576847CEB8C393A5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/effectwithsettings.h */; };
+		981C794B243F473EA3D82002 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/ellipseinstrument.h */ = {isa = PBXBuildFile; fileRef = 84FD520098894A4BB591ABC5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/ellipseinstrument.h */; };
+		9854B3A600FC41C1BD9C4BC6 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/rectangleinstrument.cpp */ = {isa = PBXBuildFile; fileRef = C34B41CB9A654CF3AA96C1E7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/rectangleinstrument.cpp */; };
+		98C0287395954B8798ED8FB6 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/abstractselection.h */ = {isa = PBXBuildFile; fileRef = 7BFE3A3B6AC841F193141C81 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/abstractselection.h */; };
+		99FC6BBD4185497DAE609059 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/easypaintenums.h */ = {isa = PBXBuildFile; fileRef = 021CC8BD092F497088F4AC6C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/easypaintenums.h */; };
+		9B10F08B9CF34CDFA44C1962 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_fillinstrument.cpp */ = {isa = PBXBuildFile; fileRef = 3DF2798E60E0488C97FD1C3E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_fillinstrument.cpp */; };
+		9B1C1B596E96402D8E2CF217 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_colorpickerinstrument.cpp */ = {isa = PBXBuildFile; fileRef = 8D6F58E9B16E48F98FEBDB1B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_colorpickerinstrument.cpp */; };
+		9C17253210FB45F595607D9D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_rectangleinstrument.cpp */ = {isa = PBXBuildFile; fileRef = 3BE3F0DB786F4A9ABFF4E60B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_rectangleinstrument.cpp */; };
+		9F96F2EC19F249D79308E954 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_toolbar.cpp */ = {isa = PBXBuildFile; fileRef = BB46A2F598E44D75B66F01E4 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_toolbar.cpp */; };
+		A4219032C8DA47E1AF80ABEC /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_imagearea.cpp */ = {isa = PBXBuildFile; fileRef = E46D6995468F4A7CBCE0D68B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_imagearea.cpp */; };
+		A46B0F4BC44E4FB691C647B6 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_additionaltools.cpp.rule */ = {isa = PBXBuildFile; fileRef = 421BC709DE1849D2A7D133BD /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_additionaltools.cpp.rule */; };
+		A5DF4349D3A54D778AE2D0AA /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_datasingleton.cpp */ = {isa = PBXBuildFile; fileRef = 58F3141B49904449849ECF9F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_datasingleton.cpp */; };
+		A8D0EB6573A542179EF282E4 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_negativeeffect.cpp.rule */ = {isa = PBXBuildFile; fileRef = AAB172016E2543048766FDDE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_negativeeffect.cpp.rule */; };
+		A9329DA39A7A46B6BB6CDBAF /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/colorchooser.h */ = {isa = PBXBuildFile; fileRef = 6C28C8C8B6C04AFB9644EA2B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/colorchooser.h */; };
+		ABC0C63D49284A5A94FA03AB /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_mainwindow.cpp.rule */ = {isa = PBXBuildFile; fileRef = 6AA5CC214400415AB51DF69A /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_mainwindow.cpp.rule */; };
+		ACAFFE6DAD9A4C80AB5C6B29 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/sprayinstrument.h */ = {isa = PBXBuildFile; fileRef = 16E6F7B9D9D54F33B1B71A1E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/sprayinstrument.h */; };
+		AE12E56E82DB4AEABF8E401B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_binarizationeffect.cpp.rule */ = {isa = PBXBuildFile; fileRef = 9368B5FA92B44A85A82BE4E2 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_binarizationeffect.cpp.rule */; };
+		AE22A8E100D840E0B63EC4FE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/magnifierinstrument.cpp */ = {isa = PBXBuildFile; fileRef = 63BFCCD43985425F8753727E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/magnifierinstrument.cpp */; };
+		AEBAC328A5DA492893026AAE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/main.cpp */ = {isa = PBXBuildFile; fileRef = A1A833D7223B44E59E20D7F8 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/main.cpp */; };
+		AF72D27CFB234FDFBB262208 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/datasingleton.h */ = {isa = PBXBuildFile; fileRef = BBDBB961F9AC401186FA572C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/datasingleton.h */; };
+		B1FC5C7998064478917E6D6F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/shortcutedit.h */ = {isa = PBXBuildFile; fileRef = 0E90790022A543D7ABC6D349 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/shortcutedit.h */; };
+		B33F903CDB8A418DA8CFD5D7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_binarizationeffect.cpp */ = {isa = PBXBuildFile; fileRef = A5573D9E96EF4FCBB75EEB38 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_binarizationeffect.cpp */; };
+		B437C4E667BB4681A6117873 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_rectangleinstrument.cpp.rule */ = {isa = PBXBuildFile; fileRef = 024280E93F5A4D5398BB384F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_rectangleinstrument.cpp.rule */; };
+		B4AA92D5332D4268AD0F43A9 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/palettebar.cpp */ = {isa = PBXBuildFile; fileRef = FB63C3589B0E4D79BA428B2E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/palettebar.cpp */; };
+		B4D07C2EC566414CBC88C1DF /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/eraserinstrument.cpp */ = {isa = PBXBuildFile; fileRef = C1A7537792CC4F539D7F806B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/eraserinstrument.cpp */; };
+		B63B94933C0F4D819995D87B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_customfiltersettings.cpp.rule */ = {isa = PBXBuildFile; fileRef = 86690B0899EA422B831FFE48 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_customfiltersettings.cpp.rule */; };
+		B6B6DF3AD3FC42519927C9B0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_abstractinstrument.cpp */ = {isa = PBXBuildFile; fileRef = 4AB258803EFC45388E29F868 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_abstractinstrument.cpp */; };
+		B79BEFD8FC2B46198BA7DD28 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_gammaeffect.cpp.rule */ = {isa = PBXBuildFile; fileRef = A4D7233D9AD34826B1BDA792 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_gammaeffect.cpp.rule */; };
+		B8CC5E2BE45D4969903D5F77 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/toolbar.h */ = {isa = PBXBuildFile; fileRef = 834D2D42BA2543759CF16F1F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/toolbar.h */; };
+		B93C05BE4FFA4947B18116D3 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_selectioninstrument.cpp */ = {isa = PBXBuildFile; fileRef = CB2C7565A26048B8A1BA383C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_selectioninstrument.cpp */; };
+		B94CD2BC593D40329E9FADCB /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/binarizationeffect.h */ = {isa = PBXBuildFile; fileRef = 426867843CC2493989EA11D7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/binarizationeffect.h */; };
+		B9F7D3F374C84B10A32F8F20 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/textdialog.h */ = {isa = PBXBuildFile; fileRef = 687A5169AE7443DFA79D76D2 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/textdialog.h */; };
+		BBDDAA1A54B2406299223E04 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_easypaintenums.cpp.rule */ = {isa = PBXBuildFile; fileRef = 25683470930146FFBF30FCF3 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_easypaintenums.cpp.rule */; };
+		BD8D720F9C21473887742583 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_palettebar.cpp */ = {isa = PBXBuildFile; fileRef = 20DAFFE790AF4519BE0406C1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_palettebar.cpp */; };
+		C05844A32893469C8FB25319 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/curvelineinstrument.cpp */ = {isa = PBXBuildFile; fileRef = AAEE96D0038641B0BD79F1C8 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/curvelineinstrument.cpp */; };
+		C2356DF160D447A4A96DE2FB /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/fillinstrument.h */ = {isa = PBXBuildFile; fileRef = D7F67B1DF5C445B58CA9D982 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/fillinstrument.h */; };
+		C26DE07C17A54006B39C8C90 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/shortcutedit.cpp */ = {isa = PBXBuildFile; fileRef = A20299743D4747A69AD6B553 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/shortcutedit.cpp */; };
+		C2D5CC29AAA54CC38BCC2FA8 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_undocommand.cpp.rule */ = {isa = PBXBuildFile; fileRef = 2DD7AE80A1604BB48E888369 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_undocommand.cpp.rule */; };
+		C386A85959F6473792FB73CF /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/resizedialog.cpp */ = {isa = PBXBuildFile; fileRef = 8117D934B5B64128AC8CF007 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/resizedialog.cpp */; };
+		C653C539C7304DC8A0F5D760 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_customeffect.cpp.rule */ = {isa = PBXBuildFile; fileRef = E2E107D7223643FBA5F03496 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_customeffect.cpp.rule */; };
+		C6FB26BFF58A4B49899165DD /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_customfiltersettings.cpp */ = {isa = PBXBuildFile; fileRef = DDE29181C6B54514BF998177 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_customfiltersettings.cpp */; };
+		C7319BD013B448A1B4F9DBB9 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_gaussianblurfiltersettings.cpp.rule */ = {isa = PBXBuildFile; fileRef = AB525CD4C4604F2D911D30A1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_gaussianblurfiltersettings.cpp.rule */; };
+		CA2B3D08D2124E018916E148 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_imagepreview.cpp */ = {isa = PBXBuildFile; fileRef = 39C0D2BA505242B78DF55704 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_imagepreview.cpp */; };
+		CA909CF09BA0435AB4D78E5B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_undocommand.cpp */ = {isa = PBXBuildFile; fileRef = A5EF4F48A12F4505BC27FA0D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_undocommand.cpp */; };
+		CB3B841D547E49CCAA77FEC6 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_grayeffect.cpp */ = {isa = PBXBuildFile; fileRef = 828A3D7363D445E48DEE3F70 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_grayeffect.cpp */; };
+		CC470874D567454DB6ACA914 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/imagepreview.h */ = {isa = PBXBuildFile; fileRef = 24D4C8361A19454D8A4D6DEF /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/imagepreview.h */; };
+		CDB6FD034FC3457F902C4B9D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/mainwindow.cpp */ = {isa = PBXBuildFile; fileRef = 9C06561B0747437CB7927E32 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/mainwindow.cpp */; };
+		CE8256681504489A8307CBFB /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/eraserinstrument.h */ = {isa = PBXBuildFile; fileRef = 4F15E44BC3244D699D363759 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/eraserinstrument.h */; };
+		D13D65A8DAFA42CE9E862325 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/abstracteffect.cpp */ = {isa = PBXBuildFile; fileRef = 3FB656250E6946FB8AF7AB43 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/abstracteffect.cpp */; };
+		D2D8C62DF257444E9420D093 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/imagearea.h */ = {isa = PBXBuildFile; fileRef = A90FD43FA34B4D49AF15EFF0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/imagearea.h */; };
+		D629F00641794138A09D10C0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/settingsdialog.h */ = {isa = PBXBuildFile; fileRef = AB5F3816CCE14B719DC88865 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/settingsdialog.h */; };
+		DA7A73F5E666480681962B1A /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_gaussianblureffect.cpp */ = {isa = PBXBuildFile; fileRef = 4AFF62E5D42C4FC3A8C34550 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_gaussianblureffect.cpp */; };
+		DB8A94DDEE304DF0BD64EDC5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/toolbar.cpp */ = {isa = PBXBuildFile; fileRef = 5627043E1DB245838B38BC32 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/toolbar.cpp */; };
+		DC376F76EB8241BEA9B2D9D1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/additionaltools.h */ = {isa = PBXBuildFile; fileRef = 94F6B04EC3564FEAB9133134 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/additionaltools.h */; };
+		DDD84FF9811E404E8C1BD8F6 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/qrc_resources.cpp */ = {isa = PBXBuildFile; fileRef = 07DC54D369A249DFACDF571D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/qrc_resources.cpp */; };
+		E3BB2791B3B74FD998AE9945 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/settingsdialog.cpp */ = {isa = PBXBuildFile; fileRef = 13958FEB558444D69D268A62 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/settingsdialog.cpp */; };
+		E44A9C372FE747D7A680CEB0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_shortcutedit.cpp.rule */ = {isa = PBXBuildFile; fileRef = E1393372468F4561BBD38DCD /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_shortcutedit.cpp.rule */; };
+		E52470EB4A1441E189D4FB04 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/grayeffect.h */ = {isa = PBXBuildFile; fileRef = E1ACE9D692BD443A9D767D64 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/grayeffect.h */; };
+		E5E98A6B438E43DA94A0825F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/fillinstrument.cpp */ = {isa = PBXBuildFile; fileRef = B01E45D98645479E8ED664F1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/fillinstrument.cpp */; };
+		E6A443E9A4F64D66955AFA77 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/colorpickerinstrument.cpp */ = {isa = PBXBuildFile; fileRef = FEF7815B76AB403FB73170B4 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/colorpickerinstrument.cpp */; };
+		E7366BF1F3424F11A830CE3D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/undocommand.h */ = {isa = PBXBuildFile; fileRef = 64605A6812F840B092C3B363 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/undocommand.h */; };
+		E79FF1FF41D7422CBAE7A955 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9699DBE3350C4CCCB98B3907 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/CMakeLists.txt */; };
+		E8BBF92DDF084B5DA8663603 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_textinstrument.cpp */ = {isa = PBXBuildFile; fileRef = A5A3080CE41E4344A0D7B77E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_textinstrument.cpp */; };
+		E9CF3C01DC244F72B00CB4B4 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_settingsdialog.cpp */ = {isa = PBXBuildFile; fileRef = 403E4EF3893845D886A30CFE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_settingsdialog.cpp */; };
+		ED8BB6E0FB05402AB5A56761 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_gammaeffect.cpp */ = {isa = PBXBuildFile; fileRef = C0EBDFF10B564D1FA4D89D65 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_gammaeffect.cpp */; };
+		EFBBCD6C7FFC4F9FAF95AA9C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/abstracteffectsettings.h */ = {isa = PBXBuildFile; fileRef = B8BF3DDDC11F4BFDB5004008 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/abstracteffectsettings.h */; };
+		F09DE158EC984BA1B17D7A85 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/sprayinstrument.cpp */ = {isa = PBXBuildFile; fileRef = 9E1F9E0B5B03445B95480A6F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/sprayinstrument.cpp */; };
+		F142AEC792534EF5B52AD078 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/negativeeffect.h */ = {isa = PBXBuildFile; fileRef = A949D43425584E36B92277E3 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/negativeeffect.h */; };
+		F1EDA0A9DD27489EA52DAD54 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_effectwithsettings.cpp */ = {isa = PBXBuildFile; fileRef = 5000788963854D38ADFDDE19 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_effectwithsettings.cpp */; };
+		F2D877072B104862BEBCEA60 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/binarizationeffect.cpp */ = {isa = PBXBuildFile; fileRef = 986DEE3ADE09472695D1125B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/binarizationeffect.cpp */; };
+		F3AA543D59E749768CD5E086 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_magnifierinstrument.cpp */ = {isa = PBXBuildFile; fileRef = 43CE10CC28344326AEC577F9 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_magnifierinstrument.cpp */; };
+		F5A5262CBCBF409FBAE60413 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/imagearea.cpp */ = {isa = PBXBuildFile; fileRef = 4E29C12C2EB64EEB93FC0876 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/imagearea.cpp */; };
+		F7C28A7AE97D45C0AF626575 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/colorpickerinstrument.h */ = {isa = PBXBuildFile; fileRef = 49483D856A8C4E278A3960A0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/colorpickerinstrument.h */; };
+		F7FDCC0124C84EB29AEDD672 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_sprayinstrument.cpp.rule */ = {isa = PBXBuildFile; fileRef = 83B135A0D9124424A1B813CF /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_sprayinstrument.cpp.rule */; };
+		F84BBA63FD18452D91FE5A19 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_colorchooser.cpp */ = {isa = PBXBuildFile; fileRef = EC8F1D45E63C4203A3964D75 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_colorchooser.cpp */; };
+		FC1F539C5AC14599AB3727FC /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_abstracteffectsettings.cpp.rule */ = {isa = PBXBuildFile; fileRef = B7C9B9CAB3884B55A3F269C4 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_abstracteffectsettings.cpp.rule */; };
+		FC5341818CDD4193A758D0AE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_eraserinstrument.cpp.rule */ = {isa = PBXBuildFile; fileRef = 64E7038A07124F48A2DBDA3D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_eraserinstrument.cpp.rule */; };
+		FD2F057701AE466B99B5B34A /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_abstracteffect.cpp.rule */ = {isa = PBXBuildFile; fileRef = B694E6A925594133AE6AA905 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_abstracteffect.cpp.rule */; };
+		FE2E7607CAB24094B699DDFF /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_shortcutedit.cpp */ = {isa = PBXBuildFile; fileRef = 84A57B12DB1E4E82A6DFE89B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_shortcutedit.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		25B230031CF7406B9867EC06 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		36EE6324B72D4299973E2C9A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7EC5A381C9AA492488C99952 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		BEF34D79002D4381B9083E2B /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		7E8CE4ABD0B34CFDAAA1943C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE6951F5D644A478D1E1697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6F6FF0249549C58546A9BA;
+			remoteInfo = ZERO_CHECK;
+		};
+		92F2D1A1B9F54B639FDD9266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE6951F5D644A478D1E1697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E052CBD04594D05B0D85BC2;
+			remoteInfo = easypaint;
+		};
+		9BF1D9AB63294B92A46AED96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE6951F5D644A478D1E1697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6F6FF0249549C58546A9BA;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021CC8BD092F497088F4AC6C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/easypaintenums.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = easypaintenums.h; path = sources/easypaintenums.h; sourceTree = SOURCE_ROOT; };
+		024280E93F5A4D5398BB384F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_rectangleinstrument.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_rectangleinstrument.cpp.rule; path = bin/sources/instruments/moc_rectangleinstrument.cpp.rule; sourceTree = SOURCE_ROOT; };
+		03B500D690AA4D2CA49E753F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_colorpickerinstrument.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_colorpickerinstrument.cpp.rule; path = bin/sources/instruments/moc_colorpickerinstrument.cpp.rule; sourceTree = SOURCE_ROOT; };
+		04E8E8A4496C42258E6F78D7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/abstractinstrument.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = abstractinstrument.h; path = sources/instruments/abstractinstrument.h; sourceTree = SOURCE_ROOT; };
+		07630F4C132A4C449C5CB573 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_sharpeneffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_sharpeneffect.cpp; path = bin/sources/effects/moc_sharpeneffect.cpp; sourceTree = SOURCE_ROOT; };
+		07DC54D369A249DFACDF571D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/qrc_resources.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = qrc_resources.cpp; path = bin/qrc_resources.cpp; sourceTree = SOURCE_ROOT; };
+		08B0A4B2683D4B41807D693B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_sharpeneffect.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_sharpeneffect.cpp.rule; path = bin/sources/effects/moc_sharpeneffect.cpp.rule; sourceTree = SOURCE_ROOT; };
+		0C55B42AB9FE474BA50E51B7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_lineinstrument.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_lineinstrument.cpp.rule; path = bin/sources/instruments/moc_lineinstrument.cpp.rule; sourceTree = SOURCE_ROOT; };
+		0E90790022A543D7ABC6D349 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/shortcutedit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shortcutedit.h; path = sources/widgets/shortcutedit.h; sourceTree = SOURCE_ROOT; };
+		116064FC77DD420BBCDD10F0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_colorchooser.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_colorchooser.cpp.rule; path = bin/sources/widgets/moc_colorchooser.cpp.rule; sourceTree = SOURCE_ROOT; };
+		13958FEB558444D69D268A62 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/settingsdialog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = settingsdialog.cpp; path = sources/dialogs/settingsdialog.cpp; sourceTree = SOURCE_ROOT; };
+		148339B43A7A419DA85F7928 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/pencilinstrument.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pencilinstrument.h; path = sources/instruments/pencilinstrument.h; sourceTree = SOURCE_ROOT; };
+		1654A1EFA483496CAFA034BE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_textdialog.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_textdialog.cpp.rule; path = bin/sources/dialogs/moc_textdialog.cpp.rule; sourceTree = SOURCE_ROOT; };
+		167FECBF7396481CA65D1B3E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/abstractselection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = abstractselection.cpp; path = sources/instruments/abstractselection.cpp; sourceTree = SOURCE_ROOT; };
+		16E6F7B9D9D54F33B1B71A1E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/sprayinstrument.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sprayinstrument.h; path = sources/instruments/sprayinstrument.h; sourceTree = SOURCE_ROOT; };
+		17CCC8322C3A45F4BA142A83 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_mainwindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_mainwindow.cpp; path = bin/sources/moc_mainwindow.cpp; sourceTree = SOURCE_ROOT; };
+		20076BA9639E4152B664A0E2 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_gaussianblurfiltersettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_gaussianblurfiltersettings.cpp; path = bin/sources/widgets/moc_gaussianblurfiltersettings.cpp; sourceTree = SOURCE_ROOT; };
+		20B063EDF9B5405C9822E3E8 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/selectioninstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = selectioninstrument.cpp; path = sources/instruments/selectioninstrument.cpp; sourceTree = SOURCE_ROOT; };
+		20DAFFE790AF4519BE0406C1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_palettebar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_palettebar.cpp; path = bin/sources/widgets/moc_palettebar.cpp; sourceTree = SOURCE_ROOT; };
+		2355A2BD5C444A3B9CAE1F72 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_imagearea.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_imagearea.cpp.rule; path = bin/sources/moc_imagearea.cpp.rule; sourceTree = SOURCE_ROOT; };
+		24C0A096DB4D48AE92A0F4A3 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/customeffect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = customeffect.h; path = sources/effects/customeffect.h; sourceTree = SOURCE_ROOT; };
+		24D4C8361A19454D8A4D6DEF /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/imagepreview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imagepreview.h; path = sources/widgets/imagepreview.h; sourceTree = SOURCE_ROOT; };
+		25683470930146FFBF30FCF3 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_easypaintenums.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_easypaintenums.cpp.rule; path = bin/sources/moc_easypaintenums.cpp.rule; sourceTree = SOURCE_ROOT; };
+		272CCDD3F97946158A13E69E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/lineinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lineinstrument.cpp; path = sources/instruments/lineinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		2948099D45B946B1B865460D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/colorchooser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = colorchooser.cpp; path = sources/widgets/colorchooser.cpp; sourceTree = SOURCE_ROOT; };
+		2DD7AE80A1604BB48E888369 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_undocommand.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_undocommand.cpp.rule; path = bin/sources/moc_undocommand.cpp.rule; sourceTree = SOURCE_ROOT; };
+		2DEC0EC2576847CEB8C393A5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/effectwithsettings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = effectwithsettings.h; path = sources/effects/effectwithsettings.h; sourceTree = SOURCE_ROOT; };
+		2E3B93F90BF04A84A00DA1A9 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/curvelineinstrument.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = curvelineinstrument.h; path = sources/instruments/curvelineinstrument.h; sourceTree = SOURCE_ROOT; };
+		3070C73F74F048259E79758E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_customeffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_customeffect.cpp; path = bin/sources/effects/moc_customeffect.cpp; sourceTree = SOURCE_ROOT; };
+		30D83BABB2FA4F2CB1849A85 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/grayeffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = grayeffect.cpp; path = sources/effects/grayeffect.cpp; sourceTree = SOURCE_ROOT; };
+		33FDB4EC9E86474F9BB366C2 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_eraserinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_eraserinstrument.cpp; path = bin/sources/instruments/moc_eraserinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		344AA2A33E414DF0B9DDF971 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/textinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = textinstrument.cpp; path = sources/instruments/textinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		35AF7514DBE9402AAD7D76F9 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_imagepreview.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_imagepreview.cpp.rule; path = bin/sources/widgets/moc_imagepreview.cpp.rule; sourceTree = SOURCE_ROOT; };
+		37CDADBDDC974BBFA9392C90 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/gammaeffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gammaeffect.cpp; path = sources/effects/gammaeffect.cpp; sourceTree = SOURCE_ROOT; };
+		37FB3D8770E941B5B6EE8271 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/undocommand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = undocommand.cpp; path = sources/undocommand.cpp; sourceTree = SOURCE_ROOT; };
+		39C0D2BA505242B78DF55704 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_imagepreview.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_imagepreview.cpp; path = bin/sources/widgets/moc_imagepreview.cpp; sourceTree = SOURCE_ROOT; };
+		3A1C4E479F114DDFA6B49E09 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/ellipseinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ellipseinstrument.cpp; path = sources/instruments/ellipseinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		3BE3F0DB786F4A9ABFF4E60B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_rectangleinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_rectangleinstrument.cpp; path = bin/sources/instruments/moc_rectangleinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		3DF2798E60E0488C97FD1C3E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_fillinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_fillinstrument.cpp; path = bin/sources/instruments/moc_fillinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		3FB656250E6946FB8AF7AB43 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/abstracteffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = abstracteffect.cpp; path = sources/effects/abstracteffect.cpp; sourceTree = SOURCE_ROOT; };
+		403E4EF3893845D886A30CFE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_settingsdialog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_settingsdialog.cpp; path = bin/sources/dialogs/moc_settingsdialog.cpp; sourceTree = SOURCE_ROOT; };
+		421BC709DE1849D2A7D133BD /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_additionaltools.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_additionaltools.cpp.rule; path = bin/sources/moc_additionaltools.cpp.rule; sourceTree = SOURCE_ROOT; };
+		426867843CC2493989EA11D7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/binarizationeffect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = binarizationeffect.h; path = sources/effects/binarizationeffect.h; sourceTree = SOURCE_ROOT; };
+		4349E2E37C3541B397542005 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/magnifierinstrument.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = magnifierinstrument.h; path = sources/instruments/magnifierinstrument.h; sourceTree = SOURCE_ROOT; };
+		43CE10CC28344326AEC577F9 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_magnifierinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_magnifierinstrument.cpp; path = bin/sources/instruments/moc_magnifierinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		45C0BE05D16248C880BB7C3F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_effectsettingsdialog.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_effectsettingsdialog.cpp.rule; path = bin/sources/dialogs/moc_effectsettingsdialog.cpp.rule; sourceTree = SOURCE_ROOT; };
+		49483D856A8C4E278A3960A0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/colorpickerinstrument.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = colorpickerinstrument.h; path = sources/instruments/colorpickerinstrument.h; sourceTree = SOURCE_ROOT; };
+		49B4D07E8DCF4515A00276B0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_pencilinstrument.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_pencilinstrument.cpp.rule; path = bin/sources/instruments/moc_pencilinstrument.cpp.rule; sourceTree = SOURCE_ROOT; };
+		4AB258803EFC45388E29F868 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_abstractinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_abstractinstrument.cpp; path = bin/sources/instruments/moc_abstractinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		4AFF62E5D42C4FC3A8C34550 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_gaussianblureffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_gaussianblureffect.cpp; path = bin/sources/effects/moc_gaussianblureffect.cpp; sourceTree = SOURCE_ROOT; };
+		4E29C12C2EB64EEB93FC0876 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/imagearea.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imagearea.cpp; path = sources/imagearea.cpp; sourceTree = SOURCE_ROOT; };
+		4F15E44BC3244D699D363759 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/eraserinstrument.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eraserinstrument.h; path = sources/instruments/eraserinstrument.h; sourceTree = SOURCE_ROOT; };
+		5000788963854D38ADFDDE19 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_effectwithsettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_effectwithsettings.cpp; path = bin/sources/effects/moc_effectwithsettings.cpp; sourceTree = SOURCE_ROOT; };
+		5160F6D014A045B789BC0146 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_additionaltools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_additionaltools.cpp; path = bin/sources/moc_additionaltools.cpp; sourceTree = SOURCE_ROOT; };
+		51F5C6B50DFA405492FF544F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_toolbar.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_toolbar.cpp.rule; path = bin/sources/widgets/moc_toolbar.cpp.rule; sourceTree = SOURCE_ROOT; };
+		5244CEC0D54D4A7BAF96558C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_resizedialog.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_resizedialog.cpp.rule; path = bin/sources/dialogs/moc_resizedialog.cpp.rule; sourceTree = SOURCE_ROOT; };
+		52707278263F4573B8172E8E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/effectwithsettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = effectwithsettings.cpp; path = sources/effects/effectwithsettings.cpp; sourceTree = SOURCE_ROOT; };
+		55E7DDCE95CF4AE9B7A2987E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_easypaintenums.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_easypaintenums.cpp; path = bin/sources/moc_easypaintenums.cpp; sourceTree = SOURCE_ROOT; };
+		5627043E1DB245838B38BC32 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/toolbar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = toolbar.cpp; path = sources/widgets/toolbar.cpp; sourceTree = SOURCE_ROOT; };
+		564FDE3947724A30822F9CA5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_datasingleton.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_datasingleton.cpp.rule; path = bin/sources/moc_datasingleton.cpp.rule; sourceTree = SOURCE_ROOT; };
+		58F3141B49904449849ECF9F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_datasingleton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_datasingleton.cpp; path = bin/sources/moc_datasingleton.cpp; sourceTree = SOURCE_ROOT; };
+		5CDD99FC2684424990459132 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_negativeeffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_negativeeffect.cpp; path = bin/sources/effects/moc_negativeeffect.cpp; sourceTree = SOURCE_ROOT; };
+		5EFFAF16BACF4BD8B64169D2 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_lineinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_lineinstrument.cpp; path = bin/sources/instruments/moc_lineinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		5FB22EBB8A8444FC8D227521 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_gaussianblureffect.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_gaussianblureffect.cpp.rule; path = bin/sources/effects/moc_gaussianblureffect.cpp.rule; sourceTree = SOURCE_ROOT; };
+		6315563C86BD4F6BABB4A80D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_curvelineinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_curvelineinstrument.cpp; path = bin/sources/instruments/moc_curvelineinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		63BFCCD43985425F8753727E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/magnifierinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = magnifierinstrument.cpp; path = sources/instruments/magnifierinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		6427168C0BFB4B7488C91F68 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_effectwithsettings.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_effectwithsettings.cpp.rule; path = bin/sources/effects/moc_effectwithsettings.cpp.rule; sourceTree = SOURCE_ROOT; };
+		642E7DDF693944399E9B8097 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/selectioninstrument.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = selectioninstrument.h; path = sources/instruments/selectioninstrument.h; sourceTree = SOURCE_ROOT; };
+		64605A6812F840B092C3B363 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/undocommand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = undocommand.h; path = sources/undocommand.h; sourceTree = SOURCE_ROOT; };
+		64E7038A07124F48A2DBDA3D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_eraserinstrument.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_eraserinstrument.cpp.rule; path = bin/sources/instruments/moc_eraserinstrument.cpp.rule; sourceTree = SOURCE_ROOT; };
+		65909DE046F7479BA08E9363 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_abstractinstrument.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_abstractinstrument.cpp.rule; path = bin/sources/instruments/moc_abstractinstrument.cpp.rule; sourceTree = SOURCE_ROOT; };
+		65BA0A2236C04FAB8E227B8B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		67DE42CF7DE94B3D9E6E2020 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/customfiltersettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = customfiltersettings.cpp; path = sources/widgets/customfiltersettings.cpp; sourceTree = SOURCE_ROOT; };
+		687A5169AE7443DFA79D76D2 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/textdialog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = textdialog.h; path = sources/dialogs/textdialog.h; sourceTree = SOURCE_ROOT; };
+		6A8851906515425AAC3FBE84 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/resources.qrc */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = resources.qrc; path = sources/resources.qrc; sourceTree = SOURCE_ROOT; };
+		6AA5CC214400415AB51DF69A /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_mainwindow.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_mainwindow.cpp.rule; path = bin/sources/moc_mainwindow.cpp.rule; sourceTree = SOURCE_ROOT; };
+		6C28C8C8B6C04AFB9644EA2B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/colorchooser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = colorchooser.h; path = sources/widgets/colorchooser.h; sourceTree = SOURCE_ROOT; };
+		6F318CFEDE6E4756897E3774 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_ellipseinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_ellipseinstrument.cpp; path = bin/sources/instruments/moc_ellipseinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		7320913A5A514153AF52FC01 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_abstractselection.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_abstractselection.cpp.rule; path = bin/sources/instruments/moc_abstractselection.cpp.rule; sourceTree = SOURCE_ROOT; };
+		75F3C7936C474A9CBF730082 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/effectsettingsdialog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = effectsettingsdialog.cpp; path = sources/dialogs/effectsettingsdialog.cpp; sourceTree = SOURCE_ROOT; };
+		7BFE3A3B6AC841F193141C81 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/abstractselection.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = abstractselection.h; path = sources/instruments/abstractselection.h; sourceTree = SOURCE_ROOT; };
+		7FA1670720BB4F209854B593 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/datasingleton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = datasingleton.cpp; path = sources/datasingleton.cpp; sourceTree = SOURCE_ROOT; };
+		7FAA8AC636934D65800F933D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_pencilinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_pencilinstrument.cpp; path = bin/sources/instruments/moc_pencilinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		8117D934B5B64128AC8CF007 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/resizedialog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = resizedialog.cpp; path = sources/dialogs/resizedialog.cpp; sourceTree = SOURCE_ROOT; };
+		828A3D7363D445E48DEE3F70 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_grayeffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_grayeffect.cpp; path = bin/sources/effects/moc_grayeffect.cpp; sourceTree = SOURCE_ROOT; };
+		834D2D42BA2543759CF16F1F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/toolbar.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = toolbar.h; path = sources/widgets/toolbar.h; sourceTree = SOURCE_ROOT; };
+		83B135A0D9124424A1B813CF /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_sprayinstrument.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_sprayinstrument.cpp.rule; path = bin/sources/instruments/moc_sprayinstrument.cpp.rule; sourceTree = SOURCE_ROOT; };
+		84A57B12DB1E4E82A6DFE89B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_shortcutedit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_shortcutedit.cpp; path = bin/sources/widgets/moc_shortcutedit.cpp; sourceTree = SOURCE_ROOT; };
+		84FD520098894A4BB591ABC5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/ellipseinstrument.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ellipseinstrument.h; path = sources/instruments/ellipseinstrument.h; sourceTree = SOURCE_ROOT; };
+		86690B0899EA422B831FFE48 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_customfiltersettings.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_customfiltersettings.cpp.rule; path = bin/sources/widgets/moc_customfiltersettings.cpp.rule; sourceTree = SOURCE_ROOT; };
+		867DE02A396E480A869E6D9B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_settingsdialog.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_settingsdialog.cpp.rule; path = bin/sources/dialogs/moc_settingsdialog.cpp.rule; sourceTree = SOURCE_ROOT; };
+		86E5E66C723942B1BC5EE56F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_effectsettingsdialog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_effectsettingsdialog.cpp; path = bin/sources/dialogs/moc_effectsettingsdialog.cpp; sourceTree = SOURCE_ROOT; };
+		8D6F58E9B16E48F98FEBDB1B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_colorpickerinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_colorpickerinstrument.cpp; path = bin/sources/instruments/moc_colorpickerinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		8F03EDE2658C4CE38FA3D3C1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/sharpeneffect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sharpeneffect.h; path = sources/effects/sharpeneffect.h; sourceTree = SOURCE_ROOT; };
+		9368B5FA92B44A85A82BE4E2 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_binarizationeffect.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_binarizationeffect.cpp.rule; path = bin/sources/effects/moc_binarizationeffect.cpp.rule; sourceTree = SOURCE_ROOT; };
+		93FBA81CEAC24EBB80761339 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/mainwindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mainwindow.h; path = sources/mainwindow.h; sourceTree = SOURCE_ROOT; };
+		94B327FFE665489D961ACC97 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/palettebutton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = palettebutton.cpp; path = sources/widgets/palettebutton.cpp; sourceTree = SOURCE_ROOT; };
+		94F6B04EC3564FEAB9133134 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/additionaltools.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = additionaltools.h; path = sources/additionaltools.h; sourceTree = SOURCE_ROOT; };
+		96052EDF59B94E9BA6A0F5C8 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_abstractselection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_abstractselection.cpp; path = bin/sources/instruments/moc_abstractselection.cpp; sourceTree = SOURCE_ROOT; };
+		9699DBE3350C4CCCB98B3907 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		986DEE3ADE09472695D1125B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/binarizationeffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = binarizationeffect.cpp; path = sources/effects/binarizationeffect.cpp; sourceTree = SOURCE_ROOT; };
+		9C03E4E621A3431CBF5BACDD /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_fillinstrument.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_fillinstrument.cpp.rule; path = bin/sources/instruments/moc_fillinstrument.cpp.rule; sourceTree = SOURCE_ROOT; };
+		9C06561B0747437CB7927E32 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/mainwindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mainwindow.cpp; path = sources/mainwindow.cpp; sourceTree = SOURCE_ROOT; };
+		9C5A18C459E444F18415718C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/gaussianblurfiltersettings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gaussianblurfiltersettings.h; path = sources/widgets/gaussianblurfiltersettings.h; sourceTree = SOURCE_ROOT; };
+		9E1F9E0B5B03445B95480A6F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/sprayinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sprayinstrument.cpp; path = sources/instruments/sprayinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		9EAD0CD5F78648C19822F528 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/sharpenfiltersettings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sharpenfiltersettings.h; path = sources/widgets/sharpenfiltersettings.h; sourceTree = SOURCE_ROOT; };
+		A1A833D7223B44E59E20D7F8 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = sources/main.cpp; sourceTree = SOURCE_ROOT; };
+		A20299743D4747A69AD6B553 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/shortcutedit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shortcutedit.cpp; path = sources/widgets/shortcutedit.cpp; sourceTree = SOURCE_ROOT; };
+		A3B48268744B43AE8B487241 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_palettebar.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_palettebar.cpp.rule; path = bin/sources/widgets/moc_palettebar.cpp.rule; sourceTree = SOURCE_ROOT; };
+		A4D7233D9AD34826B1BDA792 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_gammaeffect.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_gammaeffect.cpp.rule; path = bin/sources/effects/moc_gammaeffect.cpp.rule; sourceTree = SOURCE_ROOT; };
+		A5573D9E96EF4FCBB75EEB38 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_binarizationeffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_binarizationeffect.cpp; path = bin/sources/effects/moc_binarizationeffect.cpp; sourceTree = SOURCE_ROOT; };
+		A5A3080CE41E4344A0D7B77E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_textinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_textinstrument.cpp; path = bin/sources/instruments/moc_textinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		A5EF4F48A12F4505BC27FA0D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_undocommand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_undocommand.cpp; path = bin/sources/moc_undocommand.cpp; sourceTree = SOURCE_ROOT; };
+		A688DBFCB1F8444489DEEAD7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_palettebutton.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_palettebutton.cpp.rule; path = bin/sources/widgets/moc_palettebutton.cpp.rule; sourceTree = SOURCE_ROOT; };
+		A8EE7E311E3D4B8DB4C00BCA /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/additionaltools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = additionaltools.cpp; path = sources/additionaltools.cpp; sourceTree = SOURCE_ROOT; };
+		A90FD43FA34B4D49AF15EFF0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/imagearea.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imagearea.h; path = sources/imagearea.h; sourceTree = SOURCE_ROOT; };
+		A949D43425584E36B92277E3 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/negativeeffect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = negativeeffect.h; path = sources/effects/negativeeffect.h; sourceTree = SOURCE_ROOT; };
+		AAB172016E2543048766FDDE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_negativeeffect.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_negativeeffect.cpp.rule; path = bin/sources/effects/moc_negativeeffect.cpp.rule; sourceTree = SOURCE_ROOT; };
+		AAEE96D0038641B0BD79F1C8 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/curvelineinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = curvelineinstrument.cpp; path = sources/instruments/curvelineinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		AB525CD4C4604F2D911D30A1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_gaussianblurfiltersettings.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_gaussianblurfiltersettings.cpp.rule; path = bin/sources/widgets/moc_gaussianblurfiltersettings.cpp.rule; sourceTree = SOURCE_ROOT; };
+		AB5F3816CCE14B719DC88865 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/settingsdialog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = settingsdialog.h; path = sources/dialogs/settingsdialog.h; sourceTree = SOURCE_ROOT; };
+		AD09496A2CF14F9AA581DFE4 /* easypaint */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = easypaint; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE992FCEDF32418680651390 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/lineinstrument.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lineinstrument.h; path = sources/instruments/lineinstrument.h; sourceTree = SOURCE_ROOT; };
+		B01E45D98645479E8ED664F1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/fillinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fillinstrument.cpp; path = sources/instruments/fillinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		B2282D91F90341E1B3D74F6C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/sharpenfiltersettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sharpenfiltersettings.cpp; path = sources/widgets/sharpenfiltersettings.cpp; sourceTree = SOURCE_ROOT; };
+		B2DCCDBA58604CC0BF8CF6C7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/palettebutton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = palettebutton.h; path = sources/widgets/palettebutton.h; sourceTree = SOURCE_ROOT; };
+		B4C8C0D19A2F4B10980E4C69 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/rectangleinstrument.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rectangleinstrument.h; path = sources/instruments/rectangleinstrument.h; sourceTree = SOURCE_ROOT; };
+		B694E6A925594133AE6AA905 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_abstracteffect.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_abstracteffect.cpp.rule; path = bin/sources/effects/moc_abstracteffect.cpp.rule; sourceTree = SOURCE_ROOT; };
+		B7395620FB474E0C858E7BC5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_magnifierinstrument.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_magnifierinstrument.cpp.rule; path = bin/sources/instruments/moc_magnifierinstrument.cpp.rule; sourceTree = SOURCE_ROOT; };
+		B7C9B9CAB3884B55A3F269C4 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_abstracteffectsettings.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_abstracteffectsettings.cpp.rule; path = bin/sources/widgets/moc_abstracteffectsettings.cpp.rule; sourceTree = SOURCE_ROOT; };
+		B8BF3DDDC11F4BFDB5004008 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/abstracteffectsettings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = abstracteffectsettings.h; path = sources/widgets/abstracteffectsettings.h; sourceTree = SOURCE_ROOT; };
+		B9DC41744B6E497D82ADF1D7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_resizedialog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_resizedialog.cpp; path = bin/sources/dialogs/moc_resizedialog.cpp; sourceTree = SOURCE_ROOT; };
+		BB46A2F598E44D75B66F01E4 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_toolbar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_toolbar.cpp; path = bin/sources/widgets/moc_toolbar.cpp; sourceTree = SOURCE_ROOT; };
+		BBDBB961F9AC401186FA572C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/datasingleton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = datasingleton.h; path = sources/datasingleton.h; sourceTree = SOURCE_ROOT; };
+		C0EBDFF10B564D1FA4D89D65 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_gammaeffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_gammaeffect.cpp; path = bin/sources/effects/moc_gammaeffect.cpp; sourceTree = SOURCE_ROOT; };
+		C116B37F852241518D18AF97 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/palettebar.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = palettebar.h; path = sources/widgets/palettebar.h; sourceTree = SOURCE_ROOT; };
+		C1A7537792CC4F539D7F806B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/eraserinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eraserinstrument.cpp; path = sources/instruments/eraserinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		C2CD482D9BAD4931852CAF11 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_abstracteffectsettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_abstracteffectsettings.cpp; path = bin/sources/widgets/moc_abstracteffectsettings.cpp; sourceTree = SOURCE_ROOT; };
+		C34B41CB9A654CF3AA96C1E7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/rectangleinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rectangleinstrument.cpp; path = sources/instruments/rectangleinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		C80D274E7FE84F808C2741CA /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_sharpenfiltersettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_sharpenfiltersettings.cpp; path = bin/sources/widgets/moc_sharpenfiltersettings.cpp; sourceTree = SOURCE_ROOT; };
+		CB2C7565A26048B8A1BA383C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_selectioninstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_selectioninstrument.cpp; path = bin/sources/instruments/moc_selectioninstrument.cpp; sourceTree = SOURCE_ROOT; };
+		CF7B18E30C5C4F07BC3BF8F0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/effectsettingsdialog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = effectsettingsdialog.h; path = sources/dialogs/effectsettingsdialog.h; sourceTree = SOURCE_ROOT; };
+		D3C31286F9A7426693BE5975 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/customfiltersettings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = customfiltersettings.h; path = sources/widgets/customfiltersettings.h; sourceTree = SOURCE_ROOT; };
+		D3CAD012FC314079953B593F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_selectioninstrument.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_selectioninstrument.cpp.rule; path = bin/sources/instruments/moc_selectioninstrument.cpp.rule; sourceTree = SOURCE_ROOT; };
+		D474B65AE8F846ECAF447194 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_grayeffect.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_grayeffect.cpp.rule; path = bin/sources/effects/moc_grayeffect.cpp.rule; sourceTree = SOURCE_ROOT; };
+		D6E3BBB1CED6480B8C399E11 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/abstracteffect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = abstracteffect.h; path = sources/effects/abstracteffect.h; sourceTree = SOURCE_ROOT; };
+		D7F67B1DF5C445B58CA9D982 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/fillinstrument.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fillinstrument.h; path = sources/instruments/fillinstrument.h; sourceTree = SOURCE_ROOT; };
+		D981A24167344B9D935DE5DC /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/textinstrument.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = textinstrument.h; path = sources/instruments/textinstrument.h; sourceTree = SOURCE_ROOT; };
+		DD662B4D50DF4BFA9A783223 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/imagepreview.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imagepreview.cpp; path = sources/widgets/imagepreview.cpp; sourceTree = SOURCE_ROOT; };
+		DDE29181C6B54514BF998177 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_customfiltersettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_customfiltersettings.cpp; path = bin/sources/widgets/moc_customfiltersettings.cpp; sourceTree = SOURCE_ROOT; };
+		DEF4047974B24B00B0F2E1ED /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/abstractinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = abstractinstrument.cpp; path = sources/instruments/abstractinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		E08C820D97DC45969B7B068D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_sharpenfiltersettings.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_sharpenfiltersettings.cpp.rule; path = bin/sources/widgets/moc_sharpenfiltersettings.cpp.rule; sourceTree = SOURCE_ROOT; };
+		E1393372468F4561BBD38DCD /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_shortcutedit.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_shortcutedit.cpp.rule; path = bin/sources/widgets/moc_shortcutedit.cpp.rule; sourceTree = SOURCE_ROOT; };
+		E19AE8F8FF614258960688C5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/gammaeffect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gammaeffect.h; path = sources/effects/gammaeffect.h; sourceTree = SOURCE_ROOT; };
+		E1ACE9D692BD443A9D767D64 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/grayeffect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = grayeffect.h; path = sources/effects/grayeffect.h; sourceTree = SOURCE_ROOT; };
+		E2CFB521FA7146E3BD6A525E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/gaussianblurfiltersettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gaussianblurfiltersettings.cpp; path = sources/widgets/gaussianblurfiltersettings.cpp; sourceTree = SOURCE_ROOT; };
+		E2E107D7223643FBA5F03496 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_customeffect.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_customeffect.cpp.rule; path = bin/sources/effects/moc_customeffect.cpp.rule; sourceTree = SOURCE_ROOT; };
+		E46D6995468F4A7CBCE0D68B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_imagearea.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_imagearea.cpp; path = bin/sources/moc_imagearea.cpp; sourceTree = SOURCE_ROOT; };
+		E5A192F378E9468CA975FBDC /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/resizedialog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = resizedialog.h; path = sources/dialogs/resizedialog.h; sourceTree = SOURCE_ROOT; };
+		EC33EB89998A4D0E8B74DB46 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_ellipseinstrument.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_ellipseinstrument.cpp.rule; path = bin/sources/instruments/moc_ellipseinstrument.cpp.rule; sourceTree = SOURCE_ROOT; };
+		EC8F1D45E63C4203A3964D75 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_colorchooser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_colorchooser.cpp; path = bin/sources/widgets/moc_colorchooser.cpp; sourceTree = SOURCE_ROOT; };
+		EE47BA626B4449FEAEBB3DB3 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/pencilinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pencilinstrument.cpp; path = sources/instruments/pencilinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		EE6658F8678644BF8AA9B900 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_sprayinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_sprayinstrument.cpp; path = bin/sources/instruments/moc_sprayinstrument.cpp; sourceTree = SOURCE_ROOT; };
+		F41D944E79DF49B48FCF94EB /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/textdialog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = textdialog.cpp; path = sources/dialogs/textdialog.cpp; sourceTree = SOURCE_ROOT; };
+		F4FE11DB59E64B21B581DB9E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_abstracteffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_abstracteffect.cpp; path = bin/sources/effects/moc_abstracteffect.cpp; sourceTree = SOURCE_ROOT; };
+		F5E55FEA513B421DA96D0965 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_curvelineinstrument.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_curvelineinstrument.cpp.rule; path = bin/sources/instruments/moc_curvelineinstrument.cpp.rule; sourceTree = SOURCE_ROOT; };
+		F73E761647294551AC4BC0A7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_textinstrument.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moc_textinstrument.cpp.rule; path = bin/sources/instruments/moc_textinstrument.cpp.rule; sourceTree = SOURCE_ROOT; };
+		F7BA863855AE4ADA825AC6F9 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/gaussianblureffect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gaussianblureffect.h; path = sources/effects/gaussianblureffect.h; sourceTree = SOURCE_ROOT; };
+		F8464F01FE784FE9BD287814 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_palettebutton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_palettebutton.cpp; path = bin/sources/widgets/moc_palettebutton.cpp; sourceTree = SOURCE_ROOT; };
+		F84FDCB3AD604C41895AD0D6 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_textdialog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc_textdialog.cpp; path = bin/sources/dialogs/moc_textdialog.cpp; sourceTree = SOURCE_ROOT; };
+		FB63C3589B0E4D79BA428B2E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/palettebar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = palettebar.cpp; path = sources/widgets/palettebar.cpp; sourceTree = SOURCE_ROOT; };
+		FC7E2A849E9E450FA4E0A3DD /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/negativeeffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = negativeeffect.cpp; path = sources/effects/negativeeffect.cpp; sourceTree = SOURCE_ROOT; };
+		FEF7815B76AB403FB73170B4 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/colorpickerinstrument.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = colorpickerinstrument.cpp; path = sources/instruments/colorpickerinstrument.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		03FC43D962CE43BFAC7BA153 = {
+			isa = PBXGroup;
+			children = (
+				CA2BED8F75314144AD0607C1 /* easypaint */,
+				5C7C2946609B49558E1256F2 /* ALL_BUILD */,
+				612F9D92F4FE4701958BC593 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12DFA2660E0B4C6DAC7FC99E /* Generated Files */ = {
+			isa = PBXGroup;
+			children = (
+				86E5E66C723942B1BC5EE56F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_effectsettingsdialog.cpp */,
+				B9DC41744B6E497D82ADF1D7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_resizedialog.cpp */,
+				403E4EF3893845D886A30CFE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_settingsdialog.cpp */,
+				F84FDCB3AD604C41895AD0D6 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_textdialog.cpp */,
+				F4FE11DB59E64B21B581DB9E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_abstracteffect.cpp */,
+				A5573D9E96EF4FCBB75EEB38 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_binarizationeffect.cpp */,
+				3070C73F74F048259E79758E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_customeffect.cpp */,
+				5000788963854D38ADFDDE19 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_effectwithsettings.cpp */,
+				C0EBDFF10B564D1FA4D89D65 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_gammaeffect.cpp */,
+				4AFF62E5D42C4FC3A8C34550 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_gaussianblureffect.cpp */,
+				828A3D7363D445E48DEE3F70 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_grayeffect.cpp */,
+				5CDD99FC2684424990459132 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_negativeeffect.cpp */,
+				07630F4C132A4C449C5CB573 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_sharpeneffect.cpp */,
+				4AB258803EFC45388E29F868 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_abstractinstrument.cpp */,
+				96052EDF59B94E9BA6A0F5C8 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_abstractselection.cpp */,
+				8D6F58E9B16E48F98FEBDB1B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_colorpickerinstrument.cpp */,
+				6315563C86BD4F6BABB4A80D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_curvelineinstrument.cpp */,
+				6F318CFEDE6E4756897E3774 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_ellipseinstrument.cpp */,
+				33FDB4EC9E86474F9BB366C2 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_eraserinstrument.cpp */,
+				3DF2798E60E0488C97FD1C3E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_fillinstrument.cpp */,
+				5EFFAF16BACF4BD8B64169D2 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_lineinstrument.cpp */,
+				43CE10CC28344326AEC577F9 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_magnifierinstrument.cpp */,
+				7FAA8AC636934D65800F933D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_pencilinstrument.cpp */,
+				3BE3F0DB786F4A9ABFF4E60B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_rectangleinstrument.cpp */,
+				CB2C7565A26048B8A1BA383C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_selectioninstrument.cpp */,
+				EE6658F8678644BF8AA9B900 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_sprayinstrument.cpp */,
+				A5A3080CE41E4344A0D7B77E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_textinstrument.cpp */,
+				5160F6D014A045B789BC0146 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_additionaltools.cpp */,
+				58F3141B49904449849ECF9F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_datasingleton.cpp */,
+				55E7DDCE95CF4AE9B7A2987E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_easypaintenums.cpp */,
+				E46D6995468F4A7CBCE0D68B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_imagearea.cpp */,
+				17CCC8322C3A45F4BA142A83 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_mainwindow.cpp */,
+				A5EF4F48A12F4505BC27FA0D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_undocommand.cpp */,
+				C2CD482D9BAD4931852CAF11 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_abstracteffectsettings.cpp */,
+				EC8F1D45E63C4203A3964D75 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_colorchooser.cpp */,
+				DDE29181C6B54514BF998177 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_customfiltersettings.cpp */,
+				20076BA9639E4152B664A0E2 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_gaussianblurfiltersettings.cpp */,
+				39C0D2BA505242B78DF55704 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_imagepreview.cpp */,
+				20DAFFE790AF4519BE0406C1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_palettebar.cpp */,
+				F8464F01FE784FE9BD287814 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_palettebutton.cpp */,
+				C80D274E7FE84F808C2741CA /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_sharpenfiltersettings.cpp */,
+				84A57B12DB1E4E82A6DFE89B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_shortcutedit.cpp */,
+				BB46A2F598E44D75B66F01E4 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_toolbar.cpp */,
+			);
+			name = "Generated Files";
+			sourceTree = "<group>";
+		};
+		3ADDC49A04FA463089131DFA /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				94F6B04EC3564FEAB9133134 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/additionaltools.h */,
+				BBDBB961F9AC401186FA572C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/datasingleton.h */,
+				CF7B18E30C5C4F07BC3BF8F0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/effectsettingsdialog.h */,
+				E5A192F378E9468CA975FBDC /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/resizedialog.h */,
+				AB5F3816CCE14B719DC88865 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/settingsdialog.h */,
+				687A5169AE7443DFA79D76D2 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/textdialog.h */,
+				021CC8BD092F497088F4AC6C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/easypaintenums.h */,
+				D6E3BBB1CED6480B8C399E11 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/abstracteffect.h */,
+				426867843CC2493989EA11D7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/binarizationeffect.h */,
+				24C0A096DB4D48AE92A0F4A3 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/customeffect.h */,
+				2DEC0EC2576847CEB8C393A5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/effectwithsettings.h */,
+				E19AE8F8FF614258960688C5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/gammaeffect.h */,
+				F7BA863855AE4ADA825AC6F9 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/gaussianblureffect.h */,
+				E1ACE9D692BD443A9D767D64 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/grayeffect.h */,
+				A949D43425584E36B92277E3 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/negativeeffect.h */,
+				8F03EDE2658C4CE38FA3D3C1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/sharpeneffect.h */,
+				A90FD43FA34B4D49AF15EFF0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/imagearea.h */,
+				04E8E8A4496C42258E6F78D7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/abstractinstrument.h */,
+				7BFE3A3B6AC841F193141C81 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/abstractselection.h */,
+				49483D856A8C4E278A3960A0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/colorpickerinstrument.h */,
+				2E3B93F90BF04A84A00DA1A9 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/curvelineinstrument.h */,
+				84FD520098894A4BB591ABC5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/ellipseinstrument.h */,
+				4F15E44BC3244D699D363759 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/eraserinstrument.h */,
+				D7F67B1DF5C445B58CA9D982 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/fillinstrument.h */,
+				AE992FCEDF32418680651390 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/lineinstrument.h */,
+				4349E2E37C3541B397542005 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/magnifierinstrument.h */,
+				148339B43A7A419DA85F7928 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/pencilinstrument.h */,
+				B4C8C0D19A2F4B10980E4C69 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/rectangleinstrument.h */,
+				642E7DDF693944399E9B8097 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/selectioninstrument.h */,
+				16E6F7B9D9D54F33B1B71A1E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/sprayinstrument.h */,
+				D981A24167344B9D935DE5DC /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/textinstrument.h */,
+				93FBA81CEAC24EBB80761339 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/mainwindow.h */,
+				64605A6812F840B092C3B363 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/undocommand.h */,
+				B8BF3DDDC11F4BFDB5004008 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/abstracteffectsettings.h */,
+				6C28C8C8B6C04AFB9644EA2B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/colorchooser.h */,
+				D3C31286F9A7426693BE5975 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/customfiltersettings.h */,
+				9C5A18C459E444F18415718C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/gaussianblurfiltersettings.h */,
+				24D4C8361A19454D8A4D6DEF /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/imagepreview.h */,
+				C116B37F852241518D18AF97 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/palettebar.h */,
+				B2DCCDBA58604CC0BF8CF6C7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/palettebutton.h */,
+				9EAD0CD5F78648C19822F528 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/sharpenfiltersettings.h */,
+				0E90790022A543D7ABC6D349 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/shortcutedit.h */,
+				834D2D42BA2543759CF16F1F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/toolbar.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		5C7C2946609B49558E1256F2 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F03F40F7A0FB40F89A9D60B9 /* CMake Rules */,
+				65BA0A2236C04FAB8E227B8B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		612F9D92F4FE4701958BC593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD09496A2CF14F9AA581DFE4 /* easypaint */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71C0474078F6436E90917BAB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8EE7E311E3D4B8DB4C00BCA /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/additionaltools.cpp */,
+				7FA1670720BB4F209854B593 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/datasingleton.cpp */,
+				75F3C7936C474A9CBF730082 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/effectsettingsdialog.cpp */,
+				8117D934B5B64128AC8CF007 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/resizedialog.cpp */,
+				13958FEB558444D69D268A62 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/settingsdialog.cpp */,
+				F41D944E79DF49B48FCF94EB /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/textdialog.cpp */,
+				3FB656250E6946FB8AF7AB43 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/abstracteffect.cpp */,
+				986DEE3ADE09472695D1125B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/binarizationeffect.cpp */,
+				52707278263F4573B8172E8E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/effectwithsettings.cpp */,
+				37CDADBDDC974BBFA9392C90 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/gammaeffect.cpp */,
+				30D83BABB2FA4F2CB1849A85 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/grayeffect.cpp */,
+				FC7E2A849E9E450FA4E0A3DD /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/negativeeffect.cpp */,
+				4E29C12C2EB64EEB93FC0876 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/imagearea.cpp */,
+				DEF4047974B24B00B0F2E1ED /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/abstractinstrument.cpp */,
+				167FECBF7396481CA65D1B3E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/abstractselection.cpp */,
+				FEF7815B76AB403FB73170B4 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/colorpickerinstrument.cpp */,
+				AAEE96D0038641B0BD79F1C8 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/curvelineinstrument.cpp */,
+				3A1C4E479F114DDFA6B49E09 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/ellipseinstrument.cpp */,
+				C1A7537792CC4F539D7F806B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/eraserinstrument.cpp */,
+				B01E45D98645479E8ED664F1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/fillinstrument.cpp */,
+				272CCDD3F97946158A13E69E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/lineinstrument.cpp */,
+				63BFCCD43985425F8753727E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/magnifierinstrument.cpp */,
+				EE47BA626B4449FEAEBB3DB3 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/pencilinstrument.cpp */,
+				C34B41CB9A654CF3AA96C1E7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/rectangleinstrument.cpp */,
+				20B063EDF9B5405C9822E3E8 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/selectioninstrument.cpp */,
+				9E1F9E0B5B03445B95480A6F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/sprayinstrument.cpp */,
+				344AA2A33E414DF0B9DDF971 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/textinstrument.cpp */,
+				A1A833D7223B44E59E20D7F8 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/main.cpp */,
+				9C06561B0747437CB7927E32 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/mainwindow.cpp */,
+				37FB3D8770E941B5B6EE8271 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/undocommand.cpp */,
+				2948099D45B946B1B865460D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/colorchooser.cpp */,
+				67DE42CF7DE94B3D9E6E2020 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/customfiltersettings.cpp */,
+				E2CFB521FA7146E3BD6A525E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/gaussianblurfiltersettings.cpp */,
+				DD662B4D50DF4BFA9A783223 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/imagepreview.cpp */,
+				FB63C3589B0E4D79BA428B2E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/palettebar.cpp */,
+				94B327FFE665489D961ACC97 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/palettebutton.cpp */,
+				B2282D91F90341E1B3D74F6C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/sharpenfiltersettings.cpp */,
+				A20299743D4747A69AD6B553 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/shortcutedit.cpp */,
+				5627043E1DB245838B38BC32 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/toolbar.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A1F1F600ECE74CC2837D48F7 /* Resource Files */ = {
+			isa = PBXGroup;
+			children = (
+				07DC54D369A249DFACDF571D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/qrc_resources.cpp */,
+			);
+			name = "Resource Files";
+			sourceTree = "<group>";
+		};
+		B1323FF7C2414B17BDEE03F4 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				45C0BE05D16248C880BB7C3F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_effectsettingsdialog.cpp.rule */,
+				5244CEC0D54D4A7BAF96558C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_resizedialog.cpp.rule */,
+				867DE02A396E480A869E6D9B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_settingsdialog.cpp.rule */,
+				1654A1EFA483496CAFA034BE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_textdialog.cpp.rule */,
+				B694E6A925594133AE6AA905 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_abstracteffect.cpp.rule */,
+				9368B5FA92B44A85A82BE4E2 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_binarizationeffect.cpp.rule */,
+				E2E107D7223643FBA5F03496 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_customeffect.cpp.rule */,
+				6427168C0BFB4B7488C91F68 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_effectwithsettings.cpp.rule */,
+				A4D7233D9AD34826B1BDA792 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_gammaeffect.cpp.rule */,
+				5FB22EBB8A8444FC8D227521 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_gaussianblureffect.cpp.rule */,
+				D474B65AE8F846ECAF447194 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_grayeffect.cpp.rule */,
+				AAB172016E2543048766FDDE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_negativeeffect.cpp.rule */,
+				08B0A4B2683D4B41807D693B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_sharpeneffect.cpp.rule */,
+				65909DE046F7479BA08E9363 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_abstractinstrument.cpp.rule */,
+				7320913A5A514153AF52FC01 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_abstractselection.cpp.rule */,
+				03B500D690AA4D2CA49E753F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_colorpickerinstrument.cpp.rule */,
+				F5E55FEA513B421DA96D0965 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_curvelineinstrument.cpp.rule */,
+				EC33EB89998A4D0E8B74DB46 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_ellipseinstrument.cpp.rule */,
+				64E7038A07124F48A2DBDA3D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_eraserinstrument.cpp.rule */,
+				9C03E4E621A3431CBF5BACDD /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_fillinstrument.cpp.rule */,
+				0C55B42AB9FE474BA50E51B7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_lineinstrument.cpp.rule */,
+				B7395620FB474E0C858E7BC5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_magnifierinstrument.cpp.rule */,
+				49B4D07E8DCF4515A00276B0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_pencilinstrument.cpp.rule */,
+				024280E93F5A4D5398BB384F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_rectangleinstrument.cpp.rule */,
+				D3CAD012FC314079953B593F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_selectioninstrument.cpp.rule */,
+				83B135A0D9124424A1B813CF /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_sprayinstrument.cpp.rule */,
+				F73E761647294551AC4BC0A7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_textinstrument.cpp.rule */,
+				421BC709DE1849D2A7D133BD /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_additionaltools.cpp.rule */,
+				564FDE3947724A30822F9CA5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_datasingleton.cpp.rule */,
+				25683470930146FFBF30FCF3 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_easypaintenums.cpp.rule */,
+				2355A2BD5C444A3B9CAE1F72 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_imagearea.cpp.rule */,
+				6AA5CC214400415AB51DF69A /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_mainwindow.cpp.rule */,
+				2DD7AE80A1604BB48E888369 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_undocommand.cpp.rule */,
+				B7C9B9CAB3884B55A3F269C4 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_abstracteffectsettings.cpp.rule */,
+				116064FC77DD420BBCDD10F0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_colorchooser.cpp.rule */,
+				86690B0899EA422B831FFE48 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_customfiltersettings.cpp.rule */,
+				AB525CD4C4604F2D911D30A1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_gaussianblurfiltersettings.cpp.rule */,
+				35AF7514DBE9402AAD7D76F9 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_imagepreview.cpp.rule */,
+				A3B48268744B43AE8B487241 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_palettebar.cpp.rule */,
+				A688DBFCB1F8444489DEEAD7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_palettebutton.cpp.rule */,
+				E08C820D97DC45969B7B068D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_sharpenfiltersettings.cpp.rule */,
+				E1393372468F4561BBD38DCD /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_shortcutedit.cpp.rule */,
+				51F5C6B50DFA405492FF544F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_toolbar.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CA2BED8F75314144AD0607C1 /* easypaint */ = {
+			isa = PBXGroup;
+			children = (
+				3ADDC49A04FA463089131DFA /* Header Files */,
+				71C0474078F6436E90917BAB /* Source Files */,
+				12DFA2660E0B4C6DAC7FC99E /* Generated Files */,
+				A1F1F600ECE74CC2837D48F7 /* Resource Files */,
+				B1323FF7C2414B17BDEE03F4 /* CMake Rules */,
+				9699DBE3350C4CCCB98B3907 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/CMakeLists.txt */,
+				6A8851906515425AAC3FBE84 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/resources.qrc */,
+			);
+			name = easypaint;
+			sourceTree = "<group>";
+		};
+		F03F40F7A0FB40F89A9D60B9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E052CBD04594D05B0D85BC2 /* easypaint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF969E100DA427B88DFFC69 /* Build configuration list for PBXNativeTarget "easypaint" */;
+			buildPhases = (
+				CA1E9B7647364357BC3295F8 /* CMake Rules */,
+				14FB3DD2FE174D3B9C198981 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				474ECCD2AB884407B0E97AA2 /* PBXTargetDependency */,
+			);
+			name = easypaint;
+			productName = easypaint;
+			productReference = AD09496A2CF14F9AA581DFE4 /* easypaint */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFE6951F5D644A478D1E1697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 68019D4B46DC492EB2C683FF /* Build configuration list for PBXProject "easypaint" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				25B230031CF7406B9867EC06 /* Debug */,
+				7EC5A381C9AA492488C99952 /* Release */,
+				36EE6324B72D4299973E2C9A /* MinSizeRel */,
+				BEF34D79002D4381B9083E2B /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 03FC43D962CE43BFAC7BA153;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				93A11C243E9147D9B9EDE220 /* ALL_BUILD */,
+				4C6F6FF0249549C58546A9BA /* ZERO_CHECK */,
+				2E052CBD04594D05B0D85BC2 /* easypaint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A6570F5484D4B21850318C9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/joy/Documents/WSU/Fall\\ 2018/CSC\\ 4111/Homework/A6/EasyPaint/bin -f /Users/joy/Documents/WSU/Fall\\ 2018/CSC\\ 4111/Homework/A6/EasyPaint/bin/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		1F54CB28227849FAA4085B6C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/joy/Documents/WSU/Fall\\ 2018/CSC\\ 4111/Homework/A6/EasyPaint/bin -f /Users/joy/Documents/WSU/Fall\\ 2018/CSC\\ 4111/Homework/A6/EasyPaint/bin/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		995C28F5E5644E2DB6EAA084 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BE8528C3E5444FCA91FAE6E6 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CA1E9B7647364357BC3295F8 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/joy/Documents/WSU/Fall\\ 2018/CSC\\ 4111/Homework/A6/EasyPaint/bin -f /Users/joy/Documents/WSU/Fall\\ 2018/CSC\\ 4111/Homework/A6/EasyPaint/bin/CMakeScripts/easypaint_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14FB3DD2FE174D3B9C198981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD84FF9811E404E8C1BD8F6 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/qrc_resources.cpp */,
+				66F8050F04DF45738C271D05 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_effectsettingsdialog.cpp */,
+				3A6AC11DD5B8494B9FC813E1 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_resizedialog.cpp */,
+				E9CF3C01DC244F72B00CB4B4 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_settingsdialog.cpp */,
+				638CEEEBFE644124AD077468 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/dialogs/moc_textdialog.cpp */,
+				71EBCAA4F3EE494294E2AACE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_abstracteffect.cpp */,
+				B33F903CDB8A418DA8CFD5D7 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_binarizationeffect.cpp */,
+				4E7503CE6CE14B108B26D55D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_customeffect.cpp */,
+				F1EDA0A9DD27489EA52DAD54 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_effectwithsettings.cpp */,
+				ED8BB6E0FB05402AB5A56761 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_gammaeffect.cpp */,
+				DA7A73F5E666480681962B1A /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_gaussianblureffect.cpp */,
+				CB3B841D547E49CCAA77FEC6 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_grayeffect.cpp */,
+				5A85FD37EBEF4EABA1EAEECB /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_negativeeffect.cpp */,
+				2DD794889BE948FAAB8C2E84 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/effects/moc_sharpeneffect.cpp */,
+				B6B6DF3AD3FC42519927C9B0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_abstractinstrument.cpp */,
+				9533BCA11B9E4FDDAECBF53D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_abstractselection.cpp */,
+				9B1C1B596E96402D8E2CF217 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_colorpickerinstrument.cpp */,
+				14632B60B1AC4F468F86F15C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_curvelineinstrument.cpp */,
+				4D2B7874B3BF48E78E3E998F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_ellipseinstrument.cpp */,
+				6790081308DB48DD9758ACBF /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_eraserinstrument.cpp */,
+				9B10F08B9CF34CDFA44C1962 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_fillinstrument.cpp */,
+				3DB19E4E478B4EA4A76D8CD0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_lineinstrument.cpp */,
+				F3AA543D59E749768CD5E086 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_magnifierinstrument.cpp */,
+				8587096A991744458D7BA4D6 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_pencilinstrument.cpp */,
+				9C17253210FB45F595607D9D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_rectangleinstrument.cpp */,
+				B93C05BE4FFA4947B18116D3 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_selectioninstrument.cpp */,
+				40F7DBF736E24B66BA1CBBDC /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_sprayinstrument.cpp */,
+				E8BBF92DDF084B5DA8663603 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/instruments/moc_textinstrument.cpp */,
+				1CBF288AD35E4708BF33A388 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_additionaltools.cpp */,
+				A5DF4349D3A54D778AE2D0AA /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_datasingleton.cpp */,
+				97645F8376014D87B9F5BF29 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_easypaintenums.cpp */,
+				A4219032C8DA47E1AF80ABEC /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_imagearea.cpp */,
+				497C4EE2FA7B4536B92716F5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_mainwindow.cpp */,
+				CA909CF09BA0435AB4D78E5B /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/moc_undocommand.cpp */,
+				93B24F7CC584419A89A0F125 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_abstracteffectsettings.cpp */,
+				F84BBA63FD18452D91FE5A19 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_colorchooser.cpp */,
+				C6FB26BFF58A4B49899165DD /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_customfiltersettings.cpp */,
+				59B6F456C1664290AAED901D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_gaussianblurfiltersettings.cpp */,
+				CA2B3D08D2124E018916E148 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_imagepreview.cpp */,
+				BD8D720F9C21473887742583 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_palettebar.cpp */,
+				617F4B01C304403D89C16A0D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_palettebutton.cpp */,
+				22CCE165CF9B400980B79650 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_sharpenfiltersettings.cpp */,
+				FE2E7607CAB24094B699DDFF /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_shortcutedit.cpp */,
+				9F96F2EC19F249D79308E954 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/sources/widgets/moc_toolbar.cpp */,
+				16587B2115B54AA49E04DBA2 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/additionaltools.cpp */,
+				544737109AD24FB3B856547D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/datasingleton.cpp */,
+				5433CE68A22E472A85FB6BDA /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/effectsettingsdialog.cpp */,
+				C386A85959F6473792FB73CF /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/resizedialog.cpp */,
+				E3BB2791B3B74FD998AE9945 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/settingsdialog.cpp */,
+				53D9C320C85E46C495936BC5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/dialogs/textdialog.cpp */,
+				D13D65A8DAFA42CE9E862325 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/abstracteffect.cpp */,
+				F2D877072B104862BEBCEA60 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/binarizationeffect.cpp */,
+				5D306A5A481444FC9C4C82CA /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/effectwithsettings.cpp */,
+				458FFC77DCC04FF4BEF0D5DB /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/gammaeffect.cpp */,
+				2868FC9C528D45B689D48555 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/grayeffect.cpp */,
+				75346A4A6D674743B755347E /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/effects/negativeeffect.cpp */,
+				F5A5262CBCBF409FBAE60413 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/imagearea.cpp */,
+				1C8252CFFD75470E853000E0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/abstractinstrument.cpp */,
+				97378D44F9DE44A686EF8F40 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/abstractselection.cpp */,
+				E6A443E9A4F64D66955AFA77 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/colorpickerinstrument.cpp */,
+				C05844A32893469C8FB25319 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/curvelineinstrument.cpp */,
+				93D53C111459452BB3CB02A4 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/ellipseinstrument.cpp */,
+				B4D07C2EC566414CBC88C1DF /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/eraserinstrument.cpp */,
+				E5E98A6B438E43DA94A0825F /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/fillinstrument.cpp */,
+				42FE6648C5CC4EB2BE9B4029 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/lineinstrument.cpp */,
+				AE22A8E100D840E0B63EC4FE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/magnifierinstrument.cpp */,
+				243C47DB0CA9400AB0B4C261 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/pencilinstrument.cpp */,
+				9854B3A600FC41C1BD9C4BC6 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/rectangleinstrument.cpp */,
+				6478F8E3CA004C028B760116 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/selectioninstrument.cpp */,
+				F09DE158EC984BA1B17D7A85 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/sprayinstrument.cpp */,
+				58467AD79C694F63A4B0ADA0 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/instruments/textinstrument.cpp */,
+				AEBAC328A5DA492893026AAE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/main.cpp */,
+				CDB6FD034FC3457F902C4B9D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/mainwindow.cpp */,
+				43B71A3A6B7B495BB3492A9D /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/undocommand.cpp */,
+				11C70F4552BA4E3CB8B40790 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/colorchooser.cpp */,
+				1D45C43641554B3A8EF33B4C /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/customfiltersettings.cpp */,
+				63CA78BAA70C47B0A0D353B8 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/gaussianblurfiltersettings.cpp */,
+				8D9A065EE0B54EA4838E0608 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/imagepreview.cpp */,
+				B4AA92D5332D4268AD0F43A9 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/palettebar.cpp */,
+				976BBE5B4D4845FD8DD6A811 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/palettebutton.cpp */,
+				6F0F469A0AEA4158941E5DAE /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/sharpenfiltersettings.cpp */,
+				C26DE07C17A54006B39C8C90 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/shortcutedit.cpp */,
+				DB8A94DDEE304DF0BD64EDC5 /* /Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/sources/widgets/toolbar.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		474ECCD2AB884407B0E97AA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C6F6FF0249549C58546A9BA /* ZERO_CHECK */;
+			targetProxy = 9BF1D9AB63294B92A46AED96 /* PBXContainerItemProxy */;
+		};
+		BF778B30175F4A18A9D7F63E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E052CBD04594D05B0D85BC2 /* easypaint */;
+			targetProxy = 92F2D1A1B9F54B639FDD9266 /* PBXContainerItemProxy */;
+		};
+		CC4B638023F8405CA1DC8F28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C6F6FF0249549C58546A9BA /* ZERO_CHECK */;
+			targetProxy = 7E8CE4ABD0B34CFDAAA1943C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D474A6A5CA44BD79D4DD2B6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0DB13DF5D81A49979A337FE5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		11F2BA5A124C4BB2831E1274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1808B42A2BEE43458EBCAA66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3E2C7C80691440E9A674D1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/build";
+			};
+			name = Debug;
+		};
+		4C6188CE8C10465B88BB0080 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/joy/Qt5.9.1/5.9.1/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_PRINTSUPPORT_LIB,QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/.\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/joy/Qt5.9.1/5.9.1/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtPrintSupport.framework/QtPrintSupport /Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtWidgets.framework/QtWidgets /Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtGui.framework/QtGui /Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = easypaint;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtWidgets.framework/Headers,/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtGui.framework/Headers,/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtCore.framework/Headers,"/Users/joy/Qt5.9.1/5.9.1/clang_64/./mkspecs/macx-clang",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtPrintSupport.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		52EF156ABB4A4255B051374A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/build";
+			};
+			name = Release;
+		};
+		6B38912A8D8447C3B20BD9D0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/joy/Qt5.9.1/5.9.1/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_PRINTSUPPORT_LIB,QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/.\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/joy/Qt5.9.1/5.9.1/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=gnu++11'   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtPrintSupport.framework/QtPrintSupport /Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtWidgets.framework/QtWidgets /Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtGui.framework/QtGui /Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = easypaint;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtWidgets.framework/Headers,/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtGui.framework/Headers,/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtCore.framework/Headers,"/Users/joy/Qt5.9.1/5.9.1/clang_64/./mkspecs/macx-clang",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtPrintSupport.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		71AB0C29D84D4AAFBE3F4626 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/build";
+			};
+			name = MinSizeRel;
+		};
+		AA2E0E90227E4C56BAF8440E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C1F50A0E97754218BEC91C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		CC94DD67708A4088882E8C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/joy/Qt5.9.1/5.9.1/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_PRINTSUPPORT_LIB,QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/.\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/joy/Qt5.9.1/5.9.1/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtPrintSupport.framework/QtPrintSupport /Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtWidgets.framework/QtWidgets /Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtGui.framework/QtGui /Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = easypaint;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtWidgets.framework/Headers,/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtGui.framework/Headers,/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtCore.framework/Headers,"/Users/joy/Qt5.9.1/5.9.1/clang_64/./mkspecs/macx-clang",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtPrintSupport.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D993556E18C44A1796E10C32 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DA5F47FBB3E04439A761517D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin/build";
+			};
+			name = RelWithDebInfo;
+		};
+		DFAF9AECDFFF4C10BD2D1E66 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FF853DBAEB2A4AC8981E9B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/joy/Qt5.9.1/5.9.1/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_PRINTSUPPORT_LIB,QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/.\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/joy/Qt5.9.1/5.9.1/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC '-std=gnu++11'   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtPrintSupport.framework/QtPrintSupport /Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtWidgets.framework/QtWidgets /Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtGui.framework/QtGui /Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = easypaint;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joy/Documents/WSU/Fall 2018/CSC 4111/Homework/A6/EasyPaint/bin";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtWidgets.framework/Headers,/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtGui.framework/Headers,/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtCore.framework/Headers,"/Users/joy/Qt5.9.1/5.9.1/clang_64/./mkspecs/macx-clang",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/joy/Qt5.9.1/5.9.1/clang_64/lib/QtPrintSupport.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4690349BDA954CEAA8D16605 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F50A0E97754218BEC91C5E /* Debug */,
+				1808B42A2BEE43458EBCAA66 /* Release */,
+				0D474A6A5CA44BD79D4DD2B6 /* MinSizeRel */,
+				DFAF9AECDFFF4C10BD2D1E66 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5CF969E100DA427B88DFFC69 /* Build configuration list for PBXNativeTarget "easypaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF853DBAEB2A4AC8981E9B47 /* Debug */,
+				CC94DD67708A4088882E8C1A /* Release */,
+				4C6188CE8C10465B88BB0080 /* MinSizeRel */,
+				6B38912A8D8447C3B20BD9D0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		68019D4B46DC492EB2C683FF /* Build configuration list for PBXProject "easypaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2C7C80691440E9A674D1D9 /* Debug */,
+				52EF156ABB4A4255B051374A /* Release */,
+				71AB0C29D84D4AAFBE3F4626 /* MinSizeRel */,
+				DA5F47FBB3E04439A761517D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C77EF3322829476B85955FEC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F2BA5A124C4BB2831E1274 /* Debug */,
+				AA2E0E90227E4C56BAF8440E /* Release */,
+				0DB13DF5D81A49979A337FE5 /* MinSizeRel */,
+				D993556E18C44A1796E10C32 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFE6951F5D644A478D1E1697 /* Project object */;
+}
